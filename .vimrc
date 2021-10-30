@@ -1,4 +1,4 @@
-" add by xhat
+" 文件编码
 set encoding=utf-8
 set termencoding=utf-8
 set fencs=ucs-bom,utf8,gb18030,gbk,gb2312,big5,euc-jp,euc-kr,latin1,cp936
@@ -50,7 +50,10 @@ set tabstop=4
 
 " 自动缩进
 set cindent
+" 不与 vi 兼容
 set nocompatible
+" 文件更改后自动 reload
+set autoread
 set bs=2
 
 " 语法高亮
