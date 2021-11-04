@@ -52,7 +52,7 @@ set nowrap
 " 在屏幕最后一行显示 (部分的) 命令
 set showcmd
 
-“ 在插入、替换和可视模式里，在最后一行提供消息
+" 在插入、替换和可视模式里，在最后一行提供消息
 set showmode
 
 " 插入括号时短暂地跳转到与之匹配的对应括号
@@ -74,19 +74,19 @@ set ignorecase smartcase
 
 " 制表符与缩进设置********************************************************************************************************
 
-“ 在插入模式下按下 Tab 键时，实际输入的都是空格
+" 在插入模式下按下 Tab 键时，实际输入的都是空格
 set expandtab
 
-“ 插入 Tab 时使用 shiftwidth
+" 插入 Tab 时使用 shiftwidth
 set smarttab
 
-“ 缩进列数对齐到 shiftwidth 值的整数倍
+" 缩进列数对齐到 shiftwidth 值的整数倍
 set shiftround
 
-“ autoindent 设置新增加的行和前一行具有相同的缩进形式
+" autoindent 设置新增加的行和前一行具有相同的缩进形式
 set autoindent
 
-“ smartindent 设置新增行时进行”智能”缩进
+" smartindent 设置新增行时进行”智能”缩进
 set smartindent 
 
 " 执行普通模式下的缩进操作 ( << 和 >> 命令 ) 时缩进的列数
@@ -109,18 +109,18 @@ set cursorcolumn
 
 " 文件类型设置********************************************************************************************************
 
-“ 文件类型检测功能开关
+" 文件类型检测功能开关
 filetype on
 
-“ 打开加载文件类型插件功能
+" 打开加载文件类型插件功能
 filetype plugin on
 
-“ 为不同类型的文件定义不同的缩进格式
+" 为不同类型的文件定义不同的缩进格式
 filetype indent on
 
 autocmd BufRead,BufNew *.md,*.mkd,*.markdown set filetype=markdown.mkd
 
-“ 新建后缀为 .sh、.py 的文件时，自动执行 AutoSetFileHead 函数
+" 新建后缀为 .sh、.py 的文件时，自动执行 AutoSetFileHead 函数
 autocmd BufNewFile *.sh,*.py exec \":call AutoSetFileHead()\"
 function! AutoSetFileHead()
     " .sh "
@@ -149,13 +149,13 @@ endfun
 
 " 按键映射设置********************************************************************************************************
 
-“ jk 映射为 ESC
+" jk 映射为 ESC
 imap jk <ESC>
 
-“ 命令行模式下按 <Ctrl> a 移动光标到最前面
+" 命令行模式下按 <Ctrl> a 移动光标到最前面
 cnoremap <C-a> <Home>
 
-“ 命令行模式下按 <Ctrl> e 移动光标到最后面
+" 命令行模式下按 <Ctrl> e 移动光标到最后面
 cnoremap <C-e> <End>
 
 " 空格键向上滚屏 光标不变
