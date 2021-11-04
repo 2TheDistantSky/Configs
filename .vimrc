@@ -13,7 +13,7 @@ set nobackup
 set noerrorbells
 
 " 按键序列超时时间
-set timeoutlen = 500
+set timeoutlen=500
 
 " ********** 编码设置
 
