@@ -9,8 +9,8 @@ set autoread
 " 覆盖文件时不备份
 set nobackup
 
-" 错误时不响起提示音
-set noerrorbells
+" 错误时不响起提示音不闪烁屏幕
+set noeb vb t_vb=
 
 " 按键序列超时时间
 set timeoutlen=500
