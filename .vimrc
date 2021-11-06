@@ -109,11 +109,12 @@ cnoremap <C-a> <Home>
 " 命令行模式下按 <Ctrl> e 移动光标到最后面
 cnoremap <C-e> <End>
 
-" 空格键向上滚屏 光标不变
-nnoremap <SPACE> 2<C-e>
-noremap <C-j> 3<C-e>
-noremap <C-k> 3<C-y>
-
-" ctrl+h l 分别在插入模式下左右移动
+" 插入模式下按  <Ctrl> h 光标左移
 imap <C-h> <ESC>i
+" 插入模式下光标按 <Ctrl> l 光标右移
 imap <C-l> <ESC>la
+
+" 自动插入成对括号
+inoremap ( ()<LEFT>
+inoremap [ []<LEFT>
+inoremap { {}<LEFT>
