@@ -10,6 +10,12 @@ set nobackup
 " 不创建交换文件
 set noswapfile
 
+" 默认寄存器使用系统剪贴板
+if has('unnamedplus')
+  set clipboard^=unnamed
+  set clipboard^=unnamedplus
+endif
+
 " 错误时不响起提示音不闪烁屏幕
 set noeb vb t_vb=
 
@@ -53,10 +59,8 @@ set showmatch
 " 若搜索中包含大写，则区分大小写，否则不区分大小写
 set ignorecase smartcase
 
-" smartindent 设置新set autoindent
-filetype plugin indent on
-" set smartindent
-" set autoindent
+" 自动缩进
+filetype indent on
 
 " 执行普通模式下的缩进操作 ( << 和 >> 命令 ) 时缩进的列数
 set shiftwidth=4
