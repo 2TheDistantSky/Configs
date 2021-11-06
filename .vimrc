@@ -26,9 +26,6 @@ set encoding=utf-8
 set wildmenu
 set wildmode=longest:list,full
 
-" 显示光标所在位置的行号和列号。如果还有空间，在最右端显示文本在文件中的相对位置。
-set ruler
-
 " 语法高亮
 syntax enable
 
@@ -44,9 +41,6 @@ set relativenumber
 " 超过窗口宽度的行不自动回绕显示
 set nowrap
 
-" 在屏幕最后一行显示 (部分的) 命令
-set showcmd
-
 " 在插入、替换和可视模式里，在最后一行提供消息
 set showmode
 
@@ -56,7 +50,7 @@ set hlsearch
 " 根据已经在查找域中输入的文本，预览第一处匹配目标
 set incsearch
 
-" 光标遇到圆括号、方括号、大括号时，自动高亮对应的另一个圆括号、方括号和大括号
+" 光标遇到圆括号、方括号、大括号时，高亮对应的另一个圆括号、方括号和大括号
 set showmatch
 
 " 若搜索中包含大写，则区分大小写，否则不区分大小写
