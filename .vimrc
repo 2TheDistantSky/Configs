@@ -1,5 +1,3 @@
-" 基础设置********************************************************************************************************
-
 " 不与 vi 兼容
 set nocompatible
 
@@ -9,33 +7,18 @@ set autoread
 " 覆盖文件时不备份
 set nobackup
 
+" 不创建交换文件
+set noswapfile
+
 " 错误时不响起提示音不闪烁屏幕
 set noeb vb t_vb=
-
-" 按键序列超时时间
-set timeoutlen=500
-
-" ********** 编码设置
 
 " 内部字符编码
 set encoding=utf-8
 
-" 终端字符编码
-set termencoding=utf-8
-
-" 参与自动检测换行符格式类型的备选列表
-set fileformats=unix,dos,mac
-
-" 检测文件编码备选字符编码列表
-set fileencodings=ucs-bom,utf-8,gb18030,gbk,gb2312,big5,euc-jp,euc-kr,latin1,cp936
-
-" 在任何值高于255的多字节字符上分行
-set formatoptions+=m
-
-" 在连接行时不要在两个多字节字符之间插入空格
-set formatoptions+=B
-
-" 界面设置********************************************************************************************************
+" 命令模式下，底部操作指令按下 Tab 键自动补全。第一次按下 Tab，会显示所有匹配的操作指令的清单；第二次按下 Tab，会依次选择各个指令
+set wildmenu
+set wildmode=longest:list,full
 
 " 显示光标所在位置的行号和列号。如果还有空间，在最右端显示文本在文件中的相对位置。
 set ruler
@@ -46,6 +29,9 @@ syntax enable
 " 显示行号
 set number
 
+" 显示光标所在的当前行的行号，其他行都为相对于该行的相对行号
+set relativenumber
+
 " 超过窗口宽度的行不自动回绕显示
 set nowrap
 
@@ -55,64 +41,39 @@ set showcmd
 " 在插入、替换和可视模式里，在最后一行提供消息
 set showmode
 
-" 插入括号时短暂地跳转到与之匹配的对应括号
-set showmatch
-
-" 上一选项停留的时间
-set matchtime=2
-
-" 查找设置********************************************************************************************************
-
 " 将搜索结果高亮显示
 set hlsearch
 
 " 根据已经在查找域中输入的文本，预览第一处匹配目标
 set incsearch
 
+" 光标遇到圆括号、方括号、大括号时，自动高亮对应的另一个圆括号、方括号和大括号
+set showmatch
+
 " 若搜索中包含大写，则区分大小写，否则不区分大小写
 set ignorecase smartcase
 
-" 制表符与缩进设置********************************************************************************************************
-
-" 在插入模式下按下 Tab 键时，实际输入的都是空格
-set expandtab
-
-" 插入 Tab 时使用 shiftwidth
-set smarttab
-
-" 缩进列数对齐到 shiftwidth 值的整数倍
-set shiftround
-
-" autoindent 设置新增加的行和前一行具有相同的缩进形式
-set autoindent
-
-" smartindent 设置新增行时进行”智能”缩进
-set smartindent 
+" smartindent 设置新set autoindent
+filetype plugin indent on
+" set smartindent
+" set autoindent
 
 " 执行普通模式下的缩进操作 ( << 和 >> 命令 ) 时缩进的列数
 set shiftwidth=4
 
-" 按下 Tab 键时，缩进的空格个数
+" Tab 字符的显示宽度
 set tabstop=4
 
-" insert mode tab and backspace use 4 spaces
-set softtabstop=4
+" 输入Tab字符时，自动替换成空格
+set expandtab
 
-" 按键映射设置********************************************************************************************************
-
-" 插入模式下按 <Ctrl> a 移动光标到最前面
-imap <C-a> <Home>
-
-" 插入模式下按 <Ctrl> e 移动光标到最后面
-imap <C-e> <End>
-
-" 插入模式下按  <Ctrl> h 光标左移
-imap <C-h> <ESC>i
-
-" 插入模式下光标按 <Ctrl> l 光标右移
-imap <C-l> <ESC>la
+" 上一选项开启时，Tab 转换为多少个空格。softtabstop的值为负数，会使用shiftwidth的值，两者保持一致，方便统一缩进
+set softtabstop=-1
 
 " 自动插入成对括号
 inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap { {}<LEFT>
+inoremap ) <RIGHT>
+inoremap ] <RIGHT>
+inoremap } <RIGHT>
