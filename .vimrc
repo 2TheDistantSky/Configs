@@ -100,17 +100,15 @@ set softtabstop=4
 
 " 按键映射设置********************************************************************************************************
 
-" jj 映射为 ESC
-imap jj <ESC>
+" 插入模式下按 <Ctrl> a 移动光标到最前面
+imap <C-a> <Home>
 
-" 命令行模式下按 <Ctrl> a 移动光标到最前面
-cnoremap <C-a> <Home>
-
-" 命令行模式下按 <Ctrl> e 移动光标到最后面
-cnoremap <C-e> <End>
+" 插入模式下按 <Ctrl> e 移动光标到最后面
+imap <C-e> <End>
 
 " 插入模式下按  <Ctrl> h 光标左移
 imap <C-h> <ESC>i
+
 " 插入模式下光标按 <Ctrl> l 光标右移
 imap <C-l> <ESC>la
 
