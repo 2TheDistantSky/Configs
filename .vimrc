@@ -98,46 +98,6 @@ set tabstop=4
 " insert mode tab and backspace use 4 spaces
 set softtabstop=4
 
-" 文件类型设置********************************************************************************************************
-
-" 文件类型检测功能开关
-filetype on
-
-" 打开加载文件类型插件功能
-filetype plugin on
-
-" 为不同类型的文件定义不同的缩进格式
-filetype indent on
-
-autocmd BufRead,BufNew *.md,*.mkd,*.markdown set filetype=markdown.mkd
-
-" 新建后缀为 .sh、.py 的文件时，自动执行 AutoSetFileHead 函数
-autocmd BufNewFile *.sh,*.py exec \":call AutoSetFileHead()\"
-function! AutoSetFileHead()
-    " .sh "
-    if &filetype == 'sh'
-        call setline(1, "\#!/bin/bash")
-    endif                                                                                                                                                  
-         
-    " python "     
-    if &filetype == 'python'
-        call setline(1, "\#!/usr/bin/env python")
-        call append(1, "\# encoding: utf-8")
-    endif
-
-    normal G
-    normal o
-    normal o
-endfunc
-
-autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,perl autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
-fun! <SID>StripTrailingWhitespaces()
-    let l = line(".")                                                                                                                                      
-    let c = col(".")
-    %s/\s\+$//e     
-    call cursor(l, c)
-endfun
-
 " 按键映射设置********************************************************************************************************
 
 " jj 映射为 ESC
