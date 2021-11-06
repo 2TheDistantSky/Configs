@@ -32,6 +32,9 @@ set ruler
 " 语法高亮
 syntax enable
 
+" 高亮光标所在行
+set cursorline
+
 " 显示行号
 set number
 
