@@ -26,6 +26,9 @@ set encoding=utf-8
 set wildmenu
 set wildmode=longest:list,full
 
+" Leader 键
+let mapleader=<SPACE>
+
 " 语法高亮
 syntax enable
 
@@ -46,6 +49,9 @@ set showmode
 
 " 将搜索结果高亮显示
 set hlsearch
+
+" 新进入文件时取消高亮搜索
+exec "nohlsearch"
 
 " 根据已经在查找域中输入的文本，预览第一处匹配目标
 set incsearch
@@ -78,3 +84,12 @@ inoremap { {}<LEFT>
 inoremap ) <RIGHT>
 inoremap ] <RIGHT>
 inoremap } <RIGHT>
+
+" 保证光标下面hh面有5行
+set scrolloff=5
+
+color snazzy
+let g:SnazzTransparent = 1
+
+call plug#begin('~/.vim/plugged')
+call plug#end()
