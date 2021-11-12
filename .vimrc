@@ -77,14 +77,6 @@ set expandtab
 " 上一选项开启时，Tab 转换为多少个空格。softtabstop的值为负数，会使用shiftwidth的值，两者保持一致，方便统一缩进
 set softtabstop=-1
 
-" 自动插入成对括号
-inoremap ( ()<LEFT>
-inoremap [ []<LEFT>
-inoremap { {}<LEFT>
-inoremap ) <RIGHT>
-inoremap ] <RIGHT>
-inoremap } <RIGHT>
-
 " 保证光标下面hh面有5行
 set scrolloff=5
 
