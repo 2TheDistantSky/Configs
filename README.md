@@ -1,2 +1,3 @@
-# vim
- vim related files
+# Configs
+
+Software configuration files.
