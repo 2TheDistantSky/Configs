@@ -156,10 +156,12 @@
     /* Navigate In Quick Open */
     {
         "key": "ctrl+p",
-        "command": "workbench.action.quickOpenNavigatePrevious"
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inQuickOpen"
     },
     {
         "key": "ctrl+n",
-        "command": "workbench.action.quickOpenNavigateNext"
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
     },
 ]
