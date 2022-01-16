@@ -108,5 +108,49 @@
         "key": "ctrl+end",
         "command": "cursorBottom",
         "when": "textInputFocus"
-    }
+    },
+    /* Go Back */
+    {
+        "key": "alt+h",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.navigateBack"
+    },
+    /* Go Forward */
+    {
+        "key": "alt+l",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.navigateForward"
+    },
+    /* Open File */
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.quickOpen"
+    },
+    /* Select Suggestion */
+    {
+        "key": "ctrl+n",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
 ]
