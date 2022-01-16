@@ -153,4 +153,13 @@
         "command": "selectPrevSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     },
+    /* Navigate In Quick Open */
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpenNavigatePrevious"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenNavigateNext"
+    },
 ]
