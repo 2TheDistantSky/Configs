@@ -1,0 +1,86 @@
+{
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                ":w",
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "commands": [
+                ":wq"
+            ]
+        },
+        {
+            "before": [
+                "u",
+            ],
+            "commands": [
+                "undo"
+            ]
+        },
+        {
+            "before": [
+                "U"
+            ],
+            "commands": [
+                "redo"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-e>": false,
+        "<C-f>": false,
+        "<C-b>": false,
+        "<C-p>": false,
+        "<C-n>": false,
+        "<C-o>": false,
+    },
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 16
+}
