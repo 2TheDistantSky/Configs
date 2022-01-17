@@ -69,6 +69,15 @@
                 "workbench.action.nextEditor"
             ]
         },
+        {
+            "before": [
+                "<leader>",
+                "n"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
