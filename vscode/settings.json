@@ -20,35 +20,19 @@
         {
             "before": [
                 "<leader>",
-                "s"
+                "a"
             ],
             "commands": [
-                ":w"
+                "editor.action.selectAll"
             ]
         },
         {
             "before": [
                 "<leader>",
-                "q"
+                "f"
             ],
             "commands": [
-                ":wq"
-            ]
-        },
-        {
-            "before": [
-                "u"
-            ],
-            "commands": [
-                "undo"
-            ]
-        },
-        {
-            "before": [
-                "U"
-            ],
-            "commands": [
-                "redo"
+                "Find"
             ]
         },
         {
@@ -76,6 +60,40 @@
             ],
             "commands": [
                 ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "commands": [
+                ":wq"
+            ]
+        },
+        {
+            "before": [
+                "r"
+            ],
+            "commands": [
+                "redo"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                ":w"
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                "undo"
             ]
         },
     ],
