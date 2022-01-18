@@ -26,6 +26,41 @@
             ]
         }
     ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+                "j"
+            ],
+            "after": [
+                "<space>",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+                "k"
+            ],
+            "after": [
+                "<space>",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+                "s"
+            ],
+            "after": [
+                "<space>",
+                "s"
+            ]
+        },
+    ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
