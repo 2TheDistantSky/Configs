@@ -15,6 +15,17 @@
             ]
         }
     ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<space>",
+                "<space>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
