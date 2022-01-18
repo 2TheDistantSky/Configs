@@ -93,7 +93,7 @@
                 "f"
             ],
             "commands": [
-                "Find"
+                "actions.find"
             ]
         },
         {
@@ -132,15 +132,6 @@
                 ":wq"
             ]
         },
-        {
-            "before": [
-                "<leader>",
-                "s"
-            ],
-            "commands": [
-                ":w"
-            ]
-        },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
@@ -151,6 +142,7 @@
         "<C-p>": false,
         "<C-n>": false,
         "<C-o>": false,
+        "<C-s>": false,
     },
     "vim.autoSwitchInputMethod.enable": true,
     "vim.autoSwitchInputMethod.defaultIM": "1033",
