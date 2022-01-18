@@ -1,5 +1,4 @@
 {
-    "vim.easymotion": true,
     "vim.sneak": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
@@ -8,8 +7,8 @@
     "vim.insertModeKeyBindings": [
         {
             "before": [
-                "j",
-                "j"
+                "<space>",
+                "<space>"
             ],
             "after": [
                 "<Esc>"
@@ -17,6 +16,22 @@
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                "undo"
+            ]
+        },
+        {
+            "before": [
+                "U"
+            ],
+            "commands": [
+                "redo"
+            ]
+        },
         {
             "before": [
                 "<leader>",
@@ -73,27 +88,11 @@
         },
         {
             "before": [
-                "r"
-            ],
-            "commands": [
-                "redo"
-            ]
-        },
-        {
-            "before": [
                 "<leader>",
                 "s"
             ],
             "commands": [
                 ":w"
-            ]
-        },
-        {
-            "before": [
-                "u"
-            ],
-            "commands": [
-                "undo"
             ]
         },
     ],
