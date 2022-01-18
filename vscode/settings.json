@@ -85,15 +85,6 @@
         {
             "before": [
                 "<leader>",
-                "a"
-            ],
-            "commands": [
-                "editor.action.selectAll"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
                 "f"
             ],
             "commands": [
