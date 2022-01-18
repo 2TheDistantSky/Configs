@@ -1,4 +1,8 @@
 {
+    "vim.easymotion": true,
+    "vim.surround": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.replaceWithRegister": true,
     "vim.sneak": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
