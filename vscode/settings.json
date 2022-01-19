@@ -118,15 +118,6 @@
                 ":nohl"
             ]
         },
-        {
-            "before": [
-                "<leader>",
-                "q"
-            ],
-            "commands": [
-                ":wq"
-            ]
-        },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
