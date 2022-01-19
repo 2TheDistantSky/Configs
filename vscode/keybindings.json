@@ -164,7 +164,11 @@
         "command": "workbench.action.quickOpenNavigateNext",
         "when": "inQuickOpen"
     },
-    /* Remove Close Editor */
+    /* Close Editor */
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.closeActiveEditor"
+    },
     {
         "key": "ctrl+w",
         "command": "-workbench.action.closeActiveEditor"
