@@ -1,14 +1,14 @@
 {
     "vim.easymotion": true,
+    "vim.sneak": true,
     "vim.surround": true,
     "vim.camelCaseMotion.enable": true,
     "vim.replaceWithRegister": true,
-    "vim.sneak": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
-    "vim.insertModeKeyBindings": [
+    "vim.insertModeKeyBindingsNonRecursive": [
         {
             "before": [
                 "<space>",
@@ -19,7 +19,7 @@
             ]
         }
     ],
-    "vim.visualModeKeyBindings": [
+    "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
                 "<space>",
