@@ -138,6 +138,7 @@
         "<C-n>": false,
         "<C-o>": false,
         "<C-s>": false,
+        "<C-q>": false,
     },
     "vim.autoSwitchInputMethod.enable": true,
     "vim.autoSwitchInputMethod.defaultIM": "1033",
