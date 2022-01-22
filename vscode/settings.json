@@ -8,6 +8,10 @@
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "vim.ignoreCase": true,
+    "vim.smartCase": true,
     "vim.insertModeKeyBindingsNonRecursive": [
         {
             "before": [
