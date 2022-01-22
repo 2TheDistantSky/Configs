@@ -34,33 +34,33 @@
         {
             "before": [
                 "<leader>",
-                "<leader>",
                 "j"
             ],
             "after": [
-                "<space>",
+                "<leader>",
+                "<leader>",
                 "j"
             ]
         },
         {
             "before": [
                 "<leader>",
-                "<leader>",
                 "k"
             ],
             "after": [
-                "<space>",
+                "<leader>",
+                "<leader>",
                 "k"
             ]
         },
         {
             "before": [
-                "<leader>",
                 "<leader>",
                 "s"
             ],
             "after": [
-                "<space>",
+                "<leader>",
+                "<leader>",
                 "s"
             ]
         },
