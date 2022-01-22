@@ -185,10 +185,7 @@
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-e>": false,
         "<C-f>": false,
-        "<C-b>": false,
         "<C-p>": false,
         "<C-n>": false,
         "<C-o>": false,
