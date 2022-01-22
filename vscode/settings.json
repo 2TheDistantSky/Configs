@@ -28,10 +28,26 @@
         },
         {
             "before": [
+                "<C-b>",
+            ],
+            "commands": [
+                "cursorWordLeft"
+            ]
+        },
+        {
+            "before": [
                 "<C-e>",
             ],
             "commands": [
                 "cursorEnd"
+            ]
+        },
+        {
+            "before": [
+                "<C-w>",
+            ],
+            "commands": [
+                "cursorWordRight"
             ]
         },
         {
