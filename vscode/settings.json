@@ -17,7 +17,55 @@
             "after": [
                 "<Esc>"
             ]
-        }
+        },
+        {
+            "before": [
+                "<C-a>",
+            ],
+            "commands": [
+                "cursorHome"
+            ]
+        },
+        {
+            "before": [
+                "<C-e>",
+            ],
+            "commands": [
+                "cursorEnd"
+            ]
+        },
+        {
+            "before": [
+                "<C-h>",
+            ],
+            "commands": [
+                "cursorLeft"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>",
+            ],
+            "commands": [
+                "cursorDown"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>",
+            ],
+            "commands": [
+                "cursorUp"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>",
+            ],
+            "commands": [
+                "cursorRight"
+            ]
+        },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
