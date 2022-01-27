@@ -33,7 +33,7 @@
             ]
         }
     ],
-    "vim.commandModeKeyBindingsNonRecursive": [
+    "vim.commandLineModeKeyBindingsNonRecursive": [
         {
             "before": [
                 "<C-l>"
