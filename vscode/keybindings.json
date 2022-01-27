@@ -109,24 +109,6 @@
         "command": "cursorBottom",
         "when": "textInputFocus"
     },
-    /* Go Back */
-    {
-        "key": "alt+h",
-        "command": "workbench.action.navigateBack"
-    },
-    {
-        "key": "alt+left",
-        "command": "workbench.action.navigateBack"
-    },
-    /* Go Forward */
-    {
-        "key": "alt+l",
-        "command": "workbench.action.navigateForward"
-    },
-    {
-        "key": "alt+right",
-        "command": "workbench.action.navigateForward"
-    },
     /* Open File */
     {
         "key": "ctrl+m",
