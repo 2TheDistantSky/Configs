@@ -15,90 +15,42 @@
     "vim.insertModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "<space>",
-                "<space>"
+                "<C-l>"
             ],
             "after": [
                 "<Esc>"
-            ]
-        },
-        {
-            "before": [
-                "<C-a>",
-            ],
-            "commands": [
-                "cursorHome"
-            ]
-        },
-        {
-            "before": [
-                "<C-b>",
-            ],
-            "commands": [
-                "cursorWordLeft"
-            ]
-        },
-        {
-            "before": [
-                "<C-e>",
-            ],
-            "commands": [
-                "cursorEnd"
-            ]
-        },
-        {
-            "before": [
-                "<C-w>",
-            ],
-            "commands": [
-                "cursorWordRight"
-            ]
-        },
-        {
-            "before": [
-                "<C-h>",
-            ],
-            "commands": [
-                "cursorLeft"
-            ]
-        },
-        {
-            "before": [
-                "<C-j>",
-            ],
-            "commands": [
-                "cursorDown"
-            ]
-        },
-        {
-            "before": [
-                "<C-k>",
-            ],
-            "commands": [
-                "cursorUp"
-            ]
-        },
-        {
-            "before": [
-                "<C-l>",
-            ],
-            "commands": [
-                "cursorRight"
             ]
         },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "<space>",
-                "<space>"
+                "<C-l>"
             ],
             "after": [
                 "<Esc>"
             ]
         }
     ],
+    "vim.commandModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+    ],
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
         {
             "before": [
                 "t",
