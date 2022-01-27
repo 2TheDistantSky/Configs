@@ -136,15 +136,6 @@
         {
             "before": [
                 "<leader>",
-                "h"
-            ],
-            "commands": [
-                "workbench.action.previousEditor"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
                 "n"
             ],
             "commands": [
