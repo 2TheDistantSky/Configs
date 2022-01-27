@@ -53,6 +53,32 @@
         },
         {
             "before": [
+                "f"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "s"
+            ]
+        },
+        {
+            "before": [
+                "m",
+            ],
+            "commands": [
+                "bookmarks.toggle",
+            ]
+        },
+        {
+            "before": [
+                "n",
+            ],
+            "commands": [
+                "bookmarks.listFromAllFiles",
+            ]
+        },
+        {
+            "before": [
                 "t",
             ],
             "after": [
@@ -63,16 +89,6 @@
                 "d",
                 "j",
                 "k",
-            ]
-        },
-        {
-            "before": [
-                "f"
-            ],
-            "after": [
-                "<leader>",
-                "<leader>",
-                "s"
             ]
         },
         {
