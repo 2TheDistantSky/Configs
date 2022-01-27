@@ -151,5 +151,5 @@
     "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\Users\\Arya\\im-select.exe",
     "vim.autoSwitchInputMethod.switchIMCmd": "C:\\Users\\Arya\\im-select.exe {im}",
     "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 16
+    "editor.fontSize": 20
 }
