@@ -98,42 +98,31 @@
             ]
         }
     ],
-    "vim.normalModeKeyBindings": [
-        {
-            "before": [
-                "<leader>",
-                "j"
-            ],
-            "after": [
-                "<leader>",
-                "<leader>",
-                "j"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "k"
-            ],
-            "after": [
-                "<leader>",
-                "<leader>",
-                "k"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "s"
-            ],
-            "after": [
-                "<leader>",
-                "<leader>",
-                "s"
-            ]
-        },
-    ],
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "t",
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "<leader>",
+                "b",
+                "d",
+                "j",
+                "k",
+            ]
+        },
+        {
+            "before": [
+                "f"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "s"
+            ]
+        },
         {
             "before": [
                 "u"
@@ -144,7 +133,7 @@
         },
         {
             "before": [
-                "U"
+                "<C-r>"
             ],
             "commands": [
                 "redo"
@@ -170,8 +159,15 @@
         },
         {
             "before": [
-                "<leader>",
-                "l"
+                "Q"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "E"
             ],
             "commands": [
                 "workbench.action.nextEditor"
@@ -189,12 +185,14 @@
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-e>": false,
         "<C-f>": false,
+        "<C-b>": false,
         "<C-p>": false,
         "<C-n>": false,
-        "<C-o>": false,
         "<C-s>": false,
-        "<C-q>": false,
+        "<C-m>": false,
     },
     "vim.autoSwitchInputMethod.enable": true,
     "vim.autoSwitchInputMethod.defaultIM": "1033",
