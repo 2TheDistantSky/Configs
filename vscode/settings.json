@@ -12,6 +12,7 @@
     "vim.sneakUseIgnorecaseAndSmartcase": true,
     "vim.ignoreCase": true,
     "vim.smartCase": true,
+    "vim.highlightedyank.enable": true,
     "vim.insertModeKeyBindingsNonRecursive": [
         {
             "before": [
