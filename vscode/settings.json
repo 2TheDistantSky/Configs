@@ -46,14 +46,6 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "<C-l>"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        },
-        {
-            "before": [
                 "f"
             ],
             "after": [
@@ -102,6 +94,30 @@
         },
         {
             "before": [
+                "Q"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "E"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
                 "<C-r>"
             ],
             "commands": [
@@ -124,22 +140,6 @@
             ],
             "commands": [
                 "workbench.action.previousEditor"
-            ]
-        },
-        {
-            "before": [
-                "Q"
-            ],
-            "commands": [
-                "workbench.action.previousEditor"
-            ]
-        },
-        {
-            "before": [
-                "E"
-            ],
-            "commands": [
-                "workbench.action.nextEditor"
             ]
         },
         {
