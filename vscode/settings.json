@@ -12,15 +12,15 @@
     "vim.easymotionMarkerForegroundColorTwoCharSecond": "#FF0000",
     "vim.sneakUseIgnorecaseAndSmartcase": true,
     /* Vim Settings */
-    "vim.incsearch": true,
+    "vim.highlightedyank.enable": true,
     "vim.hlsearch": true,
     "vim.ignorecase": true,
+    "vim.incsearch": true,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
     "vim.smartcase": true,
     "vim.useCtrlKeys": true,
     "vim.useSystemClipboard": true,
-    "vim.highlightedyank.enable": true,
-    "vim.mouseSelectionGoesIntoVisualMode": false,
-    /* Key map */
+    /* Key Map */
     "vim.leader": "<space>",
     "vim.handleKeys": {
         "<C-a>": false,
@@ -33,6 +33,7 @@
         "<C-s>": false,
         "<C-w>": false,
     },
+    /* Key Bindings */
     "vim.commandLineModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -163,10 +164,12 @@
             ]
         }
     ],
+    /* Auto Switch Input Method */
     "vim.autoSwitchInputMethod.enable": true,
     "vim.autoSwitchInputMethod.defaultIM": "1033",
     "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\Users\\Arya\\im-select.exe",
     "vim.autoSwitchInputMethod.switchIMCmd": "C:\\Users\\Arya\\im-select.exe {im}",
+    /* Font */
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 20
 }
