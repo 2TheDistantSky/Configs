@@ -27,6 +27,7 @@
         "<C-b>": false,
         "<C-e>": false,
         "<C-f>": false,
+        "<C-k>": false,
         "<C-m>": false,
         "<C-n>": false,
         "<C-p>": false,
