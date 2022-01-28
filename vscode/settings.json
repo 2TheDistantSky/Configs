@@ -10,9 +10,13 @@
     "vim.hlsearch": true,
     "vim.mouseSelectionGoesIntoVisualMode": false,
     "vim.sneakUseIgnorecaseAndSmartcase": true,
-    "vim.ignoreCase": true,
-    "vim.smartCase": true,
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
     "vim.highlightedyank.enable": true,
+    "vim.easymotionMarkerBackgroundColor": "#031417",
+    "vim.easymotionMarkerForegroundColorOneChar": "#FF0000",
+    "vim.easymotionMarkerForegroundColorTwoCharFirst": "#FF0000",
+    "vim.easymotionMarkerForegroundColorTwoCharSecond": "#FF0000",
     "vim.insertModeKeyBindingsNonRecursive": [
         {
             "before": [
