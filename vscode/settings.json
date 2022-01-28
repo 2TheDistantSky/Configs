@@ -168,8 +168,8 @@
     /* Auto Switch Input Method */
     "vim.autoSwitchInputMethod.enable": true,
     "vim.autoSwitchInputMethod.defaultIM": "1033",
-    "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\Users\\Arya\\im-select.exe",
-    "vim.autoSwitchInputMethod.switchIMCmd": "C:\\Users\\Arya\\im-select.exe {im}",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\Users\\im-select.exe",
+    "vim.autoSwitchInputMethod.switchIMCmd": "C:\\Users\\im-select.exe {im}",
     /* Font */
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 20,
