@@ -171,5 +171,7 @@
     "vim.autoSwitchInputMethod.switchIMCmd": "C:\\Users\\Arya\\im-select.exe {im}",
     /* Font */
     "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 20
+    "editor.fontSize": 20,
+    /* Theme */
+    "workbench.colorTheme": "Noctis Obscuro"
 }
