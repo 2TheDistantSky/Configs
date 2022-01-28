@@ -174,5 +174,7 @@
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 20,
     /* Theme */
-    "workbench.colorTheme": "Noctis Obscuro"
+    "workbench.colorTheme": "Noctis Obscuro",
+    /* Start Page */
+    "workbench.startupEditor": "none"
 }
