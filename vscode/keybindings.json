@@ -167,4 +167,9 @@
         "command": "cursorPageUp",
         "when": "textInputFocus"
     },
+    /* Focus Active Editor Group */
+    {
+        "key": "ctrl+oem_1",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
 ]
