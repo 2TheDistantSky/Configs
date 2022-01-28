@@ -180,5 +180,7 @@
     /* Editor Preview */
     "workbench.editor.enablePreview": false,
     /* Icon Theme */
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    /* Bracket Pair Colorization */
+    "editor.bracketPairColorization.enabled": true
 }
