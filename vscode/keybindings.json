@@ -146,7 +146,7 @@
         "command": "workbench.action.quickOpenNavigateNext",
         "when": "inQuickOpen"
     },
-    /* Move Page */
+    /* Scroll Page */
     {
         "key": "alt+n",
         "command": "cursorPageDown",
