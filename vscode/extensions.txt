@@ -1,0 +1,11 @@
+code --list-extensions
+
+alefragnani.Bookmarks
+DavidAnson.vscode-markdownlint
+hancel.markdown-image
+liviuschera.noctis
+ms-vscode-remote.remote-wsl
+PKief.material-icon-theme
+shardulm94.trailing-spaces
+streetsidesoftware.code-spell-checker
+vscodevim.vim
