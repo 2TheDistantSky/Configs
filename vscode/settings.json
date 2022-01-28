@@ -1,23 +1,39 @@
 {
+    /* Plugin */
+    "vim.camelCaseMotion.enable": true,
     "vim.easymotion": true,
+    "vim.replaceWithRegister": true,
     "vim.sneak": true,
     "vim.surround": true,
-    "vim.camelCaseMotion.enable": true,
-    "vim.replaceWithRegister": true,
-    "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
-    "vim.mouseSelectionGoesIntoVisualMode": false,
-    "vim.sneakUseIgnorecaseAndSmartcase": true,
-    "vim.ignorecase": true,
-    "vim.smartcase": true,
-    "vim.highlightedyank.enable": true,
+    /* Plugin Settings */
     "vim.easymotionMarkerBackgroundColor": "#031417",
     "vim.easymotionMarkerForegroundColorOneChar": "#FF0000",
     "vim.easymotionMarkerForegroundColorTwoCharFirst": "#FF0000",
     "vim.easymotionMarkerForegroundColorTwoCharSecond": "#FF0000",
-    "vim.insertModeKeyBindingsNonRecursive": [
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    /* Vim Settings */
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard": true,
+    "vim.highlightedyank.enable": true,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    /* Key map */
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-b>": false,
+        "<C-e>": false,
+        "<C-f>": false,
+        "<C-m>": false,
+        "<C-n>": false,
+        "<C-p>": false,
+        "<C-s>": false,
+        "<C-w>": false,
+    },
+    "vim.commandLineModeKeyBindingsNonRecursive": [
         {
             "before": [
                 "<C-l>"
@@ -27,17 +43,7 @@
             ]
         },
     ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<C-l>"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "vim.commandLineModeKeyBindingsNonRecursive": [
+    "vim.insertModeKeyBindingsNonRecursive": [
         {
             "before": [
                 "<C-l>"
@@ -147,18 +153,16 @@
             ]
         },
     ],
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-b>": false,
-        "<C-e>": false,
-        "<C-f>": false,
-        "<C-m>": false,
-        "<C-n>": false,
-        "<C-p>": false,
-        "<C-s>": false,
-        "<C-w>": false,
-    },
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
     "vim.autoSwitchInputMethod.enable": true,
     "vim.autoSwitchInputMethod.defaultIM": "1033",
     "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\Users\\Arya\\im-select.exe",
