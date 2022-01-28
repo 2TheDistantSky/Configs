@@ -176,5 +176,7 @@
     /* Theme */
     "workbench.colorTheme": "Noctis Obscuro",
     /* Start Page */
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    /* Editor Preview */
+    "workbench.editor.enablePreview": false
 }
