@@ -178,5 +178,7 @@
     /* Start Page */
     "workbench.startupEditor": "none",
     /* Editor Preview */
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    /* Icon Theme */
+    "workbench.iconTheme": "material-icon-theme"
 }
