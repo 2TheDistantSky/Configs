@@ -176,5 +176,5 @@
     {
         "key": "ctrl+w",
         "command": "-workbench.action.closeActiveEditor"
-    },
+    }
 ]
