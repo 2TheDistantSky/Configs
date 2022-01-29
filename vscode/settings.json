@@ -3,7 +3,6 @@
     "vim.camelCaseMotion.enable": true,
     "vim.easymotion": true,
     "vim.replaceWithRegister": true,
-    "vim.sneak": true,
     "vim.surround": true,
     /* Plugin Settings */
     "vim.easymotionMarkerBackgroundColor": "#031417",
@@ -84,6 +83,22 @@
         },
         {
             "before": [
+                "/",
+            ],
+            "commands": [
+                "actions.find",
+            ]
+        },
+        {
+            "before": [
+                "s",
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol",
+            ]
+        },
+        {
+            "before": [
                 "t",
             ],
             "after": [
@@ -134,24 +149,6 @@
             ],
             "commands": [
                 "redo"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "f"
-            ],
-            "commands": [
-                "actions.find"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "n"
-            ],
-            "commands": [
-                ":nohl"
             ]
         },
     ],
