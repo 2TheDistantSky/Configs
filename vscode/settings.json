@@ -75,22 +75,6 @@
         },
         {
             "before": [
-                "n",
-            ],
-            "commands": [
-                "bookmarks.listFromAllFiles",
-            ]
-        },
-        {
-            "before": [
-                "/",
-            ],
-            "commands": [
-                "actions.find",
-            ]
-        },
-        {
-            "before": [
                 "s",
             ],
             "commands": [
@@ -121,6 +105,14 @@
         },
         {
             "before": [
+                "z",
+            ],
+            "commands": [
+                "bookmarks.listFromAllFiles",
+            ]
+        },
+        {
+            "before": [
                 "Q"
             ],
             "commands": [
@@ -133,6 +125,14 @@
             ],
             "commands": [
                 "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<C-h>",
+            ],
+            "commands": [
+                "editor.action.startFindReplaceAction",
             ]
         },
         {
