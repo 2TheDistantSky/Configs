@@ -128,6 +128,14 @@
         },
         {
             "before": [
+                "Z"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
                 "<C-h>",
             ],
             "commands": [
