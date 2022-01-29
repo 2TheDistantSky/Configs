@@ -30,7 +30,7 @@
         "<C-m>": false,
         "<C-n>": false,
         "<C-p>": false,
-        "<C-s>": false,
+        "<C-s>": false
     },
     /* Key Bindings */
     "vim.commandLineModeKeyBindingsNonRecursive": [
@@ -41,7 +41,7 @@
             "after": [
                 "<Esc>"
             ]
-        },
+        }
     ],
     "vim.insertModeKeyBindingsNonRecursive": [
         {
@@ -51,7 +51,7 @@
             "after": [
                 "<Esc>"
             ]
-        },
+        }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -66,23 +66,23 @@
         },
         {
             "before": [
-                "m",
+                "m"
             ],
             "commands": [
-                "bookmarks.toggle",
+                "bookmarks.toggle"
             ]
         },
         {
             "before": [
-                "s",
+                "s"
             ],
             "commands": [
-                "workbench.action.gotoSymbol",
+                "workbench.action.gotoSymbol"
             ]
         },
         {
             "before": [
-                "t",
+                "t"
             ],
             "after": [
                 "<leader>",
@@ -91,7 +91,7 @@
                 "b",
                 "d",
                 "j",
-                "k",
+                "k"
             ]
         },
         {
@@ -104,10 +104,10 @@
         },
         {
             "before": [
-                "z",
+                "z"
             ],
             "commands": [
-                "bookmarks.listFromAllFiles",
+                "bookmarks.listFromAllFiles"
             ]
         },
         {
@@ -136,10 +136,10 @@
         },
         {
             "before": [
-                "<C-h>",
+                "<C-h>"
             ],
             "commands": [
-                "editor.action.startFindReplaceAction",
+                "editor.action.startFindReplaceAction"
             ]
         },
         {
@@ -157,7 +157,7 @@
             "commands": [
                 "redo"
             ]
-        },
+        }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
