@@ -172,4 +172,9 @@
         "key": "ctrl+oem_1",
         "command": "workbench.action.focusActiveEditorGroup"
     },
+    /* Remove C-w Close Editor */
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
 ]
