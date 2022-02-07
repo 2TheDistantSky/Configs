@@ -167,10 +167,19 @@
         "command": "cursorPageUp",
         "when": "textInputFocus"
     },
-    /* Focus Active Editor Group */
+    /* Focus Side Bar */
+    {
+        "key": "ctrl+oem_comma",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "ctrl+oem_comma",
+        "command": "-workbench.action.openSettings"
+    },
+    /* Focus First Editor Group */
     {
         "key": "ctrl+oem_1",
-        "command": "workbench.action.focusActiveEditorGroup"
+        "command": "workbench.action.focusFirstEditorGroup"
     },
     /* Remove C-w Close Editor */
     {
