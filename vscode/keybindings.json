@@ -61,24 +61,24 @@
     },
     /* Select Suggestion */
     {
-        "key": "ctrl+n",
-        "command": "selectNextSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-    },
-    {
         "key": "ctrl+p",
         "command": "selectPrevSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     },
-    /* Navigate In List */
     {
         "key": "ctrl+n",
-        "command": "list.focusDown",
-        "when": "listFocus && !inputFocus"
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     },
+    /* Navigate In List */
     {
         "key": "ctrl+p",
         "command": "list.focusUp",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "list.focusDown",
         "when": "listFocus && !inputFocus"
     },
     /* Navigate In Quick Open */
@@ -135,23 +135,30 @@
         "key": "ctrl+p",
         "command": "-workbench.action.quickOpen"
     },
-    /* Add C-l Functions */
+    /* Modify Vim C-l */
     {
         "key": "ctrl+l",
         "command": "extension.vim_navigateCtrlL",
         "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl && !inQuickOpen && !findWidgetVisible"
     },
+    /* Close Quick Open */
     {
         "key": "ctrl+l",
         "command": "workbench.action.closeQuickOpen",
         "when": "inQuickOpen"
     },
+    /* Close Find Widget */
     {
         "key": "ctrl+l",
         "command": "closeFindWidget",
         "when": "editorFocus && findWidgetVisible && !isComposing"
     },
-    /* Remove C-l Functions */
+    /* Remove Unused C-l Functions */
+    {
+        "key": "ctrl+l",
+        "command": "-extension.vim_navigateCtrlL",
+        "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl"
+    },
     {
         "key": "ctrl+l",
         "command": "-expandLineSelection",
@@ -161,10 +168,5 @@
         "key": "ctrl+l",
         "command": "-notebook.centerActiveCell",
         "when": "notebookEditorFocused"
-    },
-    {
-        "key": "ctrl+l",
-        "command": "-extension.vim_navigateCtrlL",
-        "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl"
-    },
+    }
 ]
