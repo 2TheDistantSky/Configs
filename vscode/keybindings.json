@@ -5,19 +5,9 @@
         "command": "cursorUp",
         "when": "textInputFocus"
     },
-    {
-        "key": "up",
-        "command": "cursorUp",
-        "when": "textInputFocus"
-    },
     /* Cursor Down */
     {
         "key": "ctrl+n",
-        "command": "cursorDown",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "down",
         "command": "cursorDown",
         "when": "textInputFocus"
     },
@@ -27,19 +17,9 @@
         "command": "cursorLeft",
         "when": "textInputFocus"
     },
-    {
-        "key": "left",
-        "command": "cursorLeft",
-        "when": "textInputFocus"
-    },
     /* Cursor Right */
     {
         "key": "ctrl+f",
-        "command": "cursorRight",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "right",
         "command": "cursorRight",
         "when": "textInputFocus"
     },
@@ -49,19 +29,9 @@
         "command": "cursorHome",
         "when": "textInputFocus"
     },
-    {
-        "key": "home",
-        "command": "cursorHome",
-        "when": "textInputFocus"
-    },
     /* Cursor End */
     {
         "key": "ctrl+e",
-        "command": "cursorEnd",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "end",
         "command": "cursorEnd",
         "when": "textInputFocus"
     },
@@ -69,32 +39,17 @@
     {
         "key": "alt+b",
         "command": "cursorWordLeft",
-        "when": "textInputFocus && !accessibilityModeEnabled"
-    },
-    {
-        "key": "ctrl+left",
-        "command": "cursorWordLeft",
-        "when": "textInputFocus && !accessibilityModeEnabled"
+        "when": "textInputFocus"
     },
     /* Cursor Word End Right */
     {
         "key": "alt+f",
         "command": "cursorWordEndRight",
-        "when": "textInputFocus && !accessibilityModeEnabled"
-    },
-    {
-        "key": "ctrl+right",
-        "command": "cursorWordEndRight",
-        "when": "textInputFocus && !accessibilityModeEnabled"
+        "when": "textInputFocus"
     },
     /* Cursor Top */
     {
         "key": "shift+alt+oem_comma",
-        "command": "cursorTop",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+home",
         "command": "cursorTop",
         "when": "textInputFocus"
     },
@@ -104,16 +59,19 @@
         "command": "cursorBottom",
         "when": "textInputFocus"
     },
-    {
-        "key": "ctrl+end",
-        "command": "cursorBottom",
-        "when": "textInputFocus"
-    },
-    /* Open File */
+    /* Quick Open */
     {
         "key": "ctrl+m",
         "command": "workbench.action.quickOpen"
     },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    }
     /* Select Suggestion */
     {
         "key": "ctrl+n",
@@ -121,17 +79,7 @@
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     },
     {
-        "key": "ctrl+down",
-        "command": "selectNextSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-    },
-    {
         "key": "ctrl+p",
-        "command": "selectPrevSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-    },
-    {
-        "key": "ctrl+up",
         "command": "selectPrevSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     },
@@ -148,23 +96,13 @@
     },
     /* Scroll Page */
     {
-        "key": "alt+n",
-        "command": "cursorPageDown",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "pagedown",
-        "command": "cursorPageDown",
-        "when": "textInputFocus"
-    },
-    {
         "key": "alt+p",
         "command": "cursorPageUp",
         "when": "textInputFocus"
     },
     {
-        "key": "pageup",
-        "command": "cursorPageUp",
+        "key": "alt+n",
+        "command": "cursorPageDown",
         "when": "textInputFocus"
     },
     /* Focus Side Bar */
