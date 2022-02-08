@@ -130,12 +130,6 @@
         "key": "ctrl+p",
         "command": "-workbench.action.quickOpen"
     },
-    /* Modify Vim C-l */
-    {
-        "key": "ctrl+l",
-        "command": "extension.vim_navigateCtrlL",
-        "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl && !inQuickOpen"
-    },
     /* Close Quick Open */
     {
         "key": "ctrl+l",
@@ -166,11 +160,6 @@
         "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     },
     /* Remove Unused C-l Functions */
-    {
-        "key": "ctrl+l",
-        "command": "-extension.vim_navigateCtrlL",
-        "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl"
-    },
     {
         "key": "ctrl+l",
         "command": "-expandLineSelection",
