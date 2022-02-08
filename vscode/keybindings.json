@@ -148,6 +148,12 @@
         "command": "closeFindWidget",
         "when": "editorFocus && findWidgetVisible && !isComposing"
     },
+    /* Close Find Widget In Terminal */
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.terminal.hideFind",
+        "when": "terminalFindVisible && terminalFocus && terminalHasBeenCreated || terminalFindVisible && terminalFocus && terminalProcessSupported"
+    },
     /* Remove Unused C-l Functions */
     {
         "key": "ctrl+l",
@@ -164,7 +170,7 @@
         "command": "-notebook.centerActiveCell",
         "when": "notebookEditorFocused"
     },
-    /* Remove unused C-w Functions */
+    /* Remove Unused C-w Functions */
     {
         "key": "ctrl+w",
         "command": "-workbench.action.closeActiveEditor"
