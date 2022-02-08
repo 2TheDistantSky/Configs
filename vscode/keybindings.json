@@ -134,7 +134,7 @@
     {
         "key": "ctrl+l",
         "command": "extension.vim_navigateCtrlL",
-        "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl && !inQuickOpen && !findWidgetVisible"
+        "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl && !inQuickOpen"
     },
     /* Close Quick Open */
     {
@@ -146,13 +146,13 @@
     {
         "key": "ctrl+l",
         "command": "closeFindWidget",
-        "when": "editorFocus && findWidgetVisible && !isComposing"
+        "when": "editorFocus && findWidgetVisible && !isComposing && vim.mode == 'Normal'"
     },
     /* Close Find Widget In Terminal */
     {
         "key": "ctrl+l",
         "command": "workbench.action.terminal.hideFind",
-        "when": "terminalFindVisible && terminalFocus && terminalHasBeenCreated || terminalFindVisible && terminalFocus && terminalProcessSupported"
+        "when": "terminalFindVisible"
     },
     /* Remove Unused C-l Functions */
     {
