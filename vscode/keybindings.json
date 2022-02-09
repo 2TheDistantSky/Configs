@@ -142,6 +142,12 @@
         "command": "closeFindWidget",
         "when": "editorFocus && findWidgetVisible && !isComposing && vim.mode == 'Normal'"
     },
+    /* Close Peek View */
+    {
+        "key": "ctrl+l",
+        "command": "closeReferenceSearch",
+        "when": "referenceSearchVisible && !config.editor.stablePeek"
+    },
     /* Close Find Widget In Terminal */
     {
         "key": "ctrl+l",
