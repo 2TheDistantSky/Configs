@@ -176,6 +176,11 @@
         "command": "-notebook.centerActiveCell",
         "when": "notebookEditorFocused"
     },
+    /* Remove Unused C-n Functions */
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
     /* Remove Unused C-w Functions */
     {
         "key": "ctrl+w",
