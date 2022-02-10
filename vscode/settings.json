@@ -38,7 +38,7 @@
         "<C-o>": true,
         "<C-p>": false,
         "<C-q>": false,
-        "<C-r>": false,
+        "<C-r>": true,
         "<C-s>": false,
         "<C-t>": false,
         "<C-u>": true,
