@@ -104,7 +104,8 @@
         },
         {
             "before": [
-                "z"
+                "g",
+                "m"
             ],
             "commands": [
                 "bookmarks.listFromAllFiles"
