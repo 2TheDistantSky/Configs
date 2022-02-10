@@ -113,22 +113,6 @@
         },
         {
             "before": [
-                "Q"
-            ],
-            "commands": [
-                "workbench.action.previousEditor"
-            ]
-        },
-        {
-            "before": [
-                "E"
-            ],
-            "commands": [
-                "workbench.action.nextEditor"
-            ]
-        },
-        {
-            "before": [
                 "Z"
             ],
             "commands": [
