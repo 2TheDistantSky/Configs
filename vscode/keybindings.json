@@ -142,6 +142,15 @@
         "command": "workbench.action.terminal.hideFind",
         "when": "terminalFindVisible"
     },
+    /* Change Tab */
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.previousEditor"
+    },
     /* Remove Unused Ctrl Functions */
     {
         "key": "ctrl+a",
@@ -275,15 +284,7 @@
     },
     {
         "key": "ctrl+j",
-        "command": "workbench.action.nextEditor"
-    },
-    {
-        "key": "ctrl+j",
         "command": "-workbench.action.togglePanel"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "workbench.action.previousEditor"
     },
     {
         "key": "ctrl+l",
