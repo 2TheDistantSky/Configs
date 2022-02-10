@@ -23,14 +23,30 @@
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-b>": false,
+        "<C-c>": false,
         "<C-d>": false,
         "<C-e>": false,
         "<C-f>": false,
+        "<C-g>": false,
+        "<C-h>": true,
+        "<C-i>": true,
+        "<C-j>": false,
         "<C-k>": false,
+        "<C-l>": true,
         "<C-m>": false,
         "<C-n>": false,
+        "<C-o>": true,
         "<C-p>": false,
-        "<C-s>": false
+        "<C-q>": false,
+        "<C-r>": false,
+        "<C-s>": false,
+        "<C-t>": false,
+        "<C-u>": true,
+        "<C-v>": true,
+        "<C-w>": true,
+        "<C-x>": false,
+        "<C-y>": false,
+        "<C-z>": false
     },
     /* Key Bindings */
     "vim.commandLineModeKeyBindingsNonRecursive": [
