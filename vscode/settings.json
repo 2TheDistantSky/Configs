@@ -112,14 +112,6 @@
         },
         {
             "before": [
-                "u"
-            ],
-            "commands": [
-                "undo"
-            ]
-        },
-        {
-            "before": [
                 "g",
                 "m"
             ],
@@ -149,14 +141,6 @@
             ],
             "after": [
                 "<Esc>"
-            ]
-        },
-        {
-            "before": [
-                "<C-r>"
-            ],
-            "commands": [
-                "redo"
             ]
         }
     ],
