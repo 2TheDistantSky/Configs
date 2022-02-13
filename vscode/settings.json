@@ -118,6 +118,15 @@
             "after": [
                 "<Esc>"
             ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "commands": [
+                "editor.action.startFindReplaceAction"
+            ]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
