@@ -90,14 +90,6 @@
         },
         {
             "before": [
-                "s"
-            ],
-            "commands": [
-                "workbench.action.gotoSymbol"
-            ]
-        },
-        {
-            "before": [
                 "t"
             ],
             "after": [
