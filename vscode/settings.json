@@ -121,14 +121,6 @@
         },
         {
             "before": [
-                "<C-h>"
-            ],
-            "commands": [
-                "editor.action.startFindReplaceAction"
-            ]
-        },
-        {
-            "before": [
                 "<C-l>"
             ],
             "after": [
