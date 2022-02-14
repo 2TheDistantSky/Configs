@@ -122,10 +122,28 @@
         {
             "before": [
                 "<leader>",
+                "f"
+            ],
+            "commands": [
+                "actions.find"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
                 "h"
             ],
             "commands": [
                 "editor.action.startFindReplaceAction"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
             ]
         }
     ],
