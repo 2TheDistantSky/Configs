@@ -40,7 +40,7 @@
         "<C-q>": false,
         "<C-r>": true,
         "<C-s>": false,
-        "<C-t>": false,
+        "<C-t>": true,
         "<C-u>": true,
         "<C-v>": true,
         "<C-w>": true,
