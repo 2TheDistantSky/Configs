@@ -158,7 +158,7 @@
     },
     /* Find In Terminal */
     {
-        "key": "alt+oem_2",
+        "key": "ctrl+oem_2",
         "command": "workbench.action.terminal.focusFind",
         "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected && !terminalFindVisible || terminalFocus && terminalProcessSupported && terminalTextSelected && !terminalFindVisible"
     },
