@@ -147,12 +147,6 @@
         "command": "hideSuggestWidget",
         "when": "suggestWidgetVisible && textInputFocus"
     },
-    /* Close Find Widget In Terminal */
-    {
-        "key": "ctrl+l",
-        "command": "workbench.action.terminal.hideFind",
-        "when": "terminalFindVisible"
-    },
     /* Change Tab */
     {
         "key": "ctrl+j",
@@ -167,6 +161,24 @@
         "key": "alt+oem_2",
         "command": "workbench.action.terminal.focusFind",
         "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected && !terminalFindVisible || terminalFocus && terminalProcessSupported && terminalTextSelected && !terminalFindVisible"
+    },
+    /* Find Next In Terminal */
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.findNext",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    /* Find Previous In Terminal */
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.terminal.findPrevious",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    /* Close Find Widget In Terminal */
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.terminal.hideFind",
+        "when": "terminalFindVisible"
     },
     /* Remove Unused Ctrl Functions */
     {
