@@ -141,6 +141,12 @@
         "command": "closeReferenceSearch",
         "when": "referenceSearchVisible && !config.editor.stablePeek"
     },
+    /* Close Suggest Widget */
+    {
+        "key": "ctrl+l",
+        "command": "hideSuggestWidget",
+        "when": "suggestWidgetVisible && textInputFocus"
+    },
     /* Close Find Widget In Terminal */
     {
         "key": "ctrl+l",
