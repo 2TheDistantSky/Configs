@@ -162,16 +162,16 @@
         "command": "workbench.action.terminal.focusFind",
         "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected && !terminalFindVisible || terminalFocus && terminalProcessSupported && terminalTextSelected && !terminalFindVisible"
     },
-    /* Find Next In Terminal */
-    {
-        "key": "ctrl+n",
-        "command": "workbench.action.terminal.findNext",
-        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-    },
     /* Find Previous In Terminal */
     {
         "key": "ctrl+p",
         "command": "workbench.action.terminal.findPrevious",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    /* Find Next In Terminal */
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.findNext",
         "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     },
     /* Toggle Find Case Sensitive In Terminal */
