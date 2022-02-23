@@ -162,6 +162,12 @@
         "key": "ctrl+k",
         "command": "workbench.action.previousEditor"
     },
+    /* Find In Terminal */
+    {
+        "key": "alt+oem_2",
+        "command": "workbench.action.terminal.focusFind",
+        "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected && !terminalFindVisible || terminalFocus && terminalProcessSupported && terminalTextSelected && !terminalFindVisible"
+    },
     /* Remove Unused Ctrl Functions */
     {
         "key": "ctrl+a",
