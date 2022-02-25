@@ -160,25 +160,25 @@
     {
         "key": "ctrl+oem_2",
         "command": "workbench.action.terminal.focusFind",
-        "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected && !terminalFindVisible || terminalFocus && terminalProcessSupported && terminalTextSelected && !terminalFindVisible"
+        "when": "terminalFocus"
     },
     /* Find Previous In Terminal */
     {
         "key": "ctrl+p",
         "command": "workbench.action.terminal.findPrevious",
-        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+        "when": "terminalFindFocused"
     },
     /* Find Next In Terminal */
     {
         "key": "ctrl+n",
         "command": "workbench.action.terminal.findNext",
-        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+        "when": "terminalFindFocused"
     },
     /* Toggle Find Case Sensitive In Terminal */
     {
         "key": "ctrl+c",
         "command": "workbench.action.terminal.toggleFindCaseSensitive",
-        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+        "when": "terminalFindFocused"
     },
     /* Close Find Widget In Terminal */
     {
