@@ -184,7 +184,7 @@
     {
         "key": "ctrl+l",
         "command": "workbench.action.terminal.hideFind",
-        "when": "terminalFindVisible"
+        "when": "terminalFindFocused"
     },
     /* Remove Unused Ctrl Functions */
     {
