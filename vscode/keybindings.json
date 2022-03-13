@@ -113,11 +113,6 @@
         "key": "ctrl+oem_1",
         "command": "workbench.action.focusFirstEditorGroup"
     },
-    /* Close Active Editor */
-    {
-        "key": "ctrl+z",
-        "command": "workbench.action.closeActiveEditor"
-    },
     /* Quick Open */
     {
         "key": "ctrl+m",
