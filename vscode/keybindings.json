@@ -147,15 +147,6 @@
         "command": "hideSuggestWidget",
         "when": "suggestWidgetVisible && textInputFocus"
     },
-    /* Change Tab */
-    {
-        "key": "ctrl+j",
-        "command": "workbench.action.nextEditor"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "workbench.action.previousEditor"
-    },
     /* Find In Terminal */
     {
         "key": "ctrl+oem_2",
