@@ -30,8 +30,8 @@
         "<C-g>": false,
         "<C-h>": true,
         "<C-i>": true,
-        "<C-j>": false,
-        "<C-k>": false,
+        "<C-j>": true,
+        "<C-k>": true,
         "<C-l>": true,
         "<C-m>": false,
         "<C-n>": false,
@@ -109,6 +109,26 @@
             ],
             "commands": [
                 "bookmarks.listFromAllFiles"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "j",
+                "j",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "k",
+                "k",
+                "k"
             ]
         },
         {
