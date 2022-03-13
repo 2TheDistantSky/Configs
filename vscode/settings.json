@@ -72,7 +72,7 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "f"
+                "s"
             ],
             "after": [
                 "<leader>",
@@ -160,10 +160,28 @@
         {
             "before": [
                 "<leader>",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
                 "s"
             ],
             "commands": [
                 "workbench.action.gotoSymbol"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save"
             ]
         }
     ],
