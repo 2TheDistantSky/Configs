@@ -24,51 +24,13 @@
         "<C-a>": false,
         "<C-b>": false,
         "<C-c>": false,
-        "<C-d>": false,
-        "<C-e>": false,
         "<C-f>": false,
-        "<C-g>": false,
-        "<C-h>": true,
-        "<C-i>": true,
-        "<C-j>": true,
-        "<C-k>": true,
-        "<C-l>": true,
         "<C-m>": false,
         "<C-n>": false,
-        "<C-o>": true,
         "<C-p>": false,
         "<C-q>": false,
-        "<C-r>": true,
-        "<C-s>": false,
-        "<C-t>": true,
-        "<C-u>": true,
-        "<C-v>": true,
-        "<C-w>": true,
-        "<C-x>": false,
-        "<C-y>": false,
-        "<C-z>": false
     },
     /* Key Bindings */
-    "vim.commandLineModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<C-l>"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "vim.insertModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<C-l>"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -133,14 +95,6 @@
         },
         {
             "before": [
-                "<C-l>"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        },
-        {
-            "before": [
                 "<leader>",
                 "f"
             ],
@@ -182,16 +136,6 @@
             ],
             "commands": [
                 "workbench.action.files.save"
-            ]
-        }
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<C-l>"
-            ],
-            "after": [
-                "<Esc>"
             ]
         }
     ],
