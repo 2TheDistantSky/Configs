@@ -10,6 +10,7 @@
     "vim.easymotionMarkerForegroundColorTwoCharFirst": "#FF0000",
     "vim.easymotionMarkerForegroundColorTwoCharSecond": "#FF0000",
     /* Vim Settings */
+    "vim.foldfix": true,
     "vim.highlightedyank.enable": true,
     "vim.hlsearch": true,
     "vim.ignorecase": true,
