@@ -137,19 +137,10 @@
         {
             "before": [
                 "<leader>",
-                "s"
+                "i"
             ],
             "commands": [
                 "workbench.action.gotoSymbol"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "w"
-            ],
-            "commands": [
-                "workbench.action.files.save"
             ]
         }
     ],
