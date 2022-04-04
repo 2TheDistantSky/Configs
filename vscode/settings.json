@@ -31,7 +31,7 @@
         "<C-f>": false,
         "<C-m>": false,
         "<C-n>": false,
-        "<C-p>": false,
+        "<C-p>": false
     },
     /* Key Bindings */
     "vim.commandLineModeKeyBindingsNonRecursive": [
