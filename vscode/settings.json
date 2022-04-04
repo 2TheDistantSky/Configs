@@ -30,8 +30,6 @@
         "<C-b>": false,
         "<C-e>": false,
         "<C-f>": false,
-        "<C-n>": false,
-        "<C-p>": false,
         /* Open File */
         "<C-m>": false,
         /* Save File */
