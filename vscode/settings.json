@@ -18,25 +18,11 @@
     "vim.hlsearch": true,
     "vim.ignorecase": true,
     "vim.incsearch": true,
+    "vim.leader": "<space>",
     "vim.mouseSelectionGoesIntoVisualMode": false,
     "vim.smartcase": true,
     "vim.useCtrlKeys": true,
     "vim.useSystemClipboard": true,
-    /* Key Map */
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-        /* Move Cursor */
-        "<C-a>": false,
-        "<C-b>": false,
-        "<C-e>": false,
-        "<C-f>": false,
-        /* Open File */
-        "<C-m>": false,
-        /* Save File */
-        "<C-s>": false,
-        /* Close Editor */
-        "<C-q>": false
-    },
     /* Key Bindings */
     "vim.commandLineModeKeyBindingsNonRecursive": [
         {
