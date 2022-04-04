@@ -459,7 +459,8 @@
     },
     {
         "key": "ctrl+z",
-        "command": "-undo"
+        "command": "-undo",
+        "when": "vim.active"
     },
     {
         "key": "ctrl+f4",
