@@ -63,119 +63,123 @@
     {
         "key": "ctrl+p",
         "command": "selectPrevSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus && vim.active"
     },
     {
         "key": "ctrl+n",
         "command": "selectNextSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus && vim.active"
     },
     /* Navigate In List */
     {
         "key": "ctrl+p",
         "command": "list.focusUp",
-        "when": "listFocus && !inputFocus"
+        "when": "listFocus && !inputFocus && vim.active"
     },
     {
         "key": "ctrl+n",
         "command": "list.focusDown",
-        "when": "listFocus && !inputFocus"
+        "when": "listFocus && !inputFocus && vim.active"
     },
     /* Navigate In Quick Open */
     {
         "key": "ctrl+p",
         "command": "workbench.action.quickOpenNavigatePrevious",
-        "when": "inQuickOpen"
+        "when": "inQuickOpen && vim.active"
     },
     {
         "key": "ctrl+n",
         "command": "workbench.action.quickOpenNavigateNext",
-        "when": "inQuickOpen"
+        "when": "inQuickOpen && vim.active"
     },
     /* Scroll Page */
     {
         "key": "alt+p",
         "command": "cursorPageUp",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     {
         "key": "alt+n",
         "command": "cursorPageDown",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     /* Focus Side Bar */
     {
         "key": "ctrl+oem_comma",
-        "command": "workbench.action.focusSideBar"
+        "command": "workbench.action.focusSideBar",
+        "when:": "vim.active"
     },
     /* Focus First Editor Group */
     {
         "key": "ctrl+oem_1",
-        "command": "workbench.action.focusFirstEditorGroup"
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when:": "vim.active"
     },
     /* Quick Open */
     {
         "key": "ctrl+m",
-        "command": "workbench.action.quickOpen"
+        "command": "workbench.action.quickOpen",
+        "when:": "vim.active"
     },
     /* Close Quick Open */
     {
         "key": "ctrl+l",
         "command": "workbench.action.closeQuickOpen",
-        "when": "inQuickOpen"
+        "when": "inQuickOpen && vim.active"
     },
     /* Close Find Widget */
     {
         "key": "ctrl+l",
         "command": "closeFindWidget",
-        "when": "editorFocus && findWidgetVisible && !isComposing && vim.mode == 'Normal'"
+        "when": "editorFocus && findWidgetVisible && !isComposing && vim.mode == 'Normal' && vim.active"
     },
     /* Close Peek View */
     {
         "key": "ctrl+l",
         "command": "closeReferenceSearch",
-        "when": "referenceSearchVisible && !config.editor.stablePeek"
+        "when": "referenceSearchVisible && !config.editor.stablePeek && vim.active"
     },
     /* Close Suggest Widget */
     {
         "key": "ctrl+l",
         "command": "hideSuggestWidget",
-        "when": "suggestWidgetVisible && textInputFocus"
+        "when": "suggestWidgetVisible && textInputFocus && vim.active"
     },
     /* Find In Terminal */
     {
         "key": "ctrl+oem_2",
         "command": "workbench.action.terminal.focusFind",
-        "when": "terminalFocus"
+        "when": "terminalFocus && vim.active"
     },
     /* Find Previous In Terminal */
     {
         "key": "ctrl+p",
         "command": "workbench.action.terminal.findPrevious",
-        "when": "terminalFindFocused"
+        "when": "terminalFindFocused && vim.active"
     },
     /* Find Next In Terminal */
     {
         "key": "ctrl+n",
         "command": "workbench.action.terminal.findNext",
-        "when": "terminalFindFocused"
+        "when": "terminalFindFocused && vim.active"
     },
     /* Toggle Find Case Sensitive In Terminal */
     {
         "key": "ctrl+c",
         "command": "workbench.action.terminal.toggleFindCaseSensitive",
-        "when": "terminalFindFocused"
+        "when": "terminalFindFocused && vim.active"
     },
     /* Close Find Widget In Terminal */
     {
         "key": "ctrl+l",
         "command": "workbench.action.terminal.hideFind",
-        "when": "terminalFindFocused"
+        "when": "terminalFindFocused && vim.active"
     },
     /* Close Active Editor */
     {
         "key": "ctrl+q",
-        "command": "workbench.action.closeActiveEditor"
+        "command": "workbench.action.closeActiveEditor",
+        "when": "vim.active"
     },
     /* Toggle Vim */
     {
