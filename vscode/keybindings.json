@@ -195,25 +195,23 @@
     /* =============================================================================================== */
     {
         "key": "ctrl+a",
-        "command": "-editor.action.selectAll"
-    },
-    {
-        "key": "ctrl+a",
-        "command": "-extension.vim_ctrl+a",
-        "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
+        "command": "-editor.action.selectAll",
+        "when": "vim.active"
     },
     {
         "key": "ctrl+a",
         "command": "-list.selectAll",
-        "when": "listFocus && listSupportsMultiselect && !inputFocus"
+        "when": "listFocus && listSupportsMultiselect && !inputFocus && vim.active"
     },
     {
         "key": "ctrl+b",
-        "command": "-workbench.action.toggleSidebarVisibility"
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "vim.active"
     },
     {
         "key": "ctrl+c",
-        "command": "-editor.action.clipboardCopyAction"
+        "command": "-editor.action.clipboardCopyAction",
+        "when": "vim.active"
     },
     {
         "key": "ctrl+c",
