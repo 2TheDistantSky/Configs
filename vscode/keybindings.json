@@ -3,13 +3,13 @@
     {
         "key": "ctrl+p",
         "command": "cursorUp",
-        "when": "textInputFocus && vim.active"
+        "when": "textInputFocus && vim.mode != 'CommandlineInProgress' && vim.active"
     },
     /* Cursor Down */
     {
         "key": "ctrl+n",
         "command": "cursorDown",
-        "when": "textInputFocus && vim.active"
+        "when": "textInputFocus && vim.mode != 'CommandlineInProgress' && vim.active"
     },
     /* Cursor Left */
     {
