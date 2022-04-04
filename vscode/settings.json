@@ -25,13 +25,19 @@
     /* Key Map */
     "vim.leader": "<space>",
     "vim.handleKeys": {
+        /* Move Cursor */
         "<C-a>": false,
         "<C-b>": false,
         "<C-e>": false,
         "<C-f>": false,
-        "<C-m>": false,
         "<C-n>": false,
-        "<C-p>": false
+        "<C-p>": false,
+        /* Open File */
+        "<C-m>": false,
+        /* Save File */
+        "<C-s>": false,
+        /* Close Editor */
+        "<C-q>": false
     },
     /* Key Bindings */
     "vim.commandLineModeKeyBindingsNonRecursive": [
@@ -123,15 +129,6 @@
             ],
             "commands": [
                 "editor.action.startFindReplaceAction"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "q"
-            ],
-            "commands": [
-                "workbench.action.closeActiveEditor"
             ]
         },
         {
