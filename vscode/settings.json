@@ -3,12 +3,15 @@
     "vim.camelCaseMotion.enable": true,
     "vim.easymotion": true,
     "vim.replaceWithRegister": true,
+    "vim.sneak": true,
     "vim.surround": true,
     /* Plugin Settings */
     "vim.easymotionMarkerBackgroundColor": "#031417",
     "vim.easymotionMarkerForegroundColorOneChar": "#FF0000",
     "vim.easymotionMarkerForegroundColorTwoCharFirst": "#FF0000",
     "vim.easymotionMarkerForegroundColorTwoCharSecond": "#FF0000",
+    "vim.sneakReplacesF": true,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
     /* Vim Settings */
     "vim.foldfix": true,
     "vim.highlightedyank.enable": true,
@@ -24,12 +27,11 @@
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-b>": false,
-        "<C-c>": false,
+        "<C-e>": false,
         "<C-f>": false,
         "<C-m>": false,
         "<C-n>": false,
         "<C-p>": false,
-        "<C-q>": false,
     },
     /* Key Bindings */
     "vim.normalModeKeyBindingsNonRecursive": [
@@ -45,14 +47,6 @@
         },
         {
             "before": [
-                "m"
-            ],
-            "commands": [
-                "bookmarks.toggle"
-            ]
-        },
-        {
-            "before": [
                 "t"
             ],
             "after": [
@@ -63,15 +57,6 @@
                 "d",
                 "j",
                 "k"
-            ]
-        },
-        {
-            "before": [
-                "g",
-                "m"
-            ],
-            "commands": [
-                "bookmarks.listFromAllFiles"
             ]
         },
         {
