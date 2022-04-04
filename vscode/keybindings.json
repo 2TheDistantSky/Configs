@@ -3,61 +3,61 @@
     {
         "key": "ctrl+p",
         "command": "cursorUp",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     /* Cursor Down */
     {
         "key": "ctrl+n",
         "command": "cursorDown",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     /* Cursor Left */
     {
         "key": "ctrl+b",
         "command": "cursorLeft",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     /* Cursor Right */
     {
         "key": "ctrl+f",
         "command": "cursorRight",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     /* Cursor Home */
     {
         "key": "ctrl+a",
         "command": "cursorHome",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     /* Cursor End */
     {
         "key": "ctrl+e",
         "command": "cursorEnd",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     /* Cursor Word Left */
     {
         "key": "alt+b",
         "command": "cursorWordLeft",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     /* Cursor Word End Right */
     {
         "key": "alt+f",
         "command": "cursorWordEndRight",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     /* Cursor Top */
     {
         "key": "shift+alt+oem_comma",
         "command": "cursorTop",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     /* Cursor Bottom */
     {
         "key": "shift+alt+oem_period",
         "command": "cursorBottom",
-        "when": "textInputFocus"
+        "when": "textInputFocus && vim.active"
     },
     /* Select Suggestion */
     {
@@ -262,7 +262,7 @@
     {
         "key": "ctrl+f",
         "command": "-actions.find",
-        "when": "editorFocus || editorIsOpen"
+        "when": "editorFocus || editorIsOpen && vim.active"
     },
     {
         "key": "ctrl+f",
@@ -316,7 +316,7 @@
     {
         "key": "ctrl+h",
         "command": "-editor.action.startFindReplaceAction",
-        "when": "editorFocus || editorIsOpen"
+        "when": "editorFocus || editorIsOpen && vim.active"
     },
     {
         "key": "ctrl+i",
