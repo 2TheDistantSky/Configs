@@ -33,7 +33,7 @@
     {
         "key": "ctrl+e",
         "command": "cursorEnd",
-        "when": "textInputFocus && vim.active"
+        "when": "textInputFocus"
     },
     /* Cursor Word Left */
     {
