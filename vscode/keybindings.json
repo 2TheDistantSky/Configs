@@ -103,18 +103,6 @@
         "command": "cursorPageDown",
         "when": "textInputFocus && vim.active"
     },
-    /* Focus Side Bar */
-    {
-        "key": "ctrl+oem_comma",
-        "command": "workbench.action.focusSideBar",
-        "when:": "vim.active"
-    },
-    /* Focus First Editor Group */
-    {
-        "key": "ctrl+oem_1",
-        "command": "workbench.action.focusFirstEditorGroup",
-        "when:": "vim.active"
-    },
     /* Quick Open */
     {
         "key": "ctrl+m",
