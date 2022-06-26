@@ -47,6 +47,14 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
+                "<space>"
+            ],
+            "commands": [
+                "whichkey.show"
+            ]
+        },
+        {
+            "before": [
                 "s"
             ],
             "after": [
@@ -128,6 +136,14 @@
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
+                "<space>"
+            ],
+            "commands": [
+                "whichkey.show"
+            ]
+        },
+        {
+            "before": [
                 "<C-l>"
             ],
             "after": [
@@ -152,5 +168,9 @@
     /* Icon Theme */
     "workbench.iconTheme": "material-icon-theme",
     /* Bracket Pair Colorization */
-    "editor.bracketPairColorization.enabled": true
+    "editor.bracketPairColorization.enabled": true,
+    /* Auto Save */
+    "files.autoSave": "afterDelay",
+    /* Trim Trailing Whitespace */
+    "files.trimTrailingWhitespace": true
 }
