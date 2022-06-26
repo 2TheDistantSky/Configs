@@ -15,7 +15,7 @@
     {
         "key": "ctrl+b",
         "command": "cursorLeft",
-        "when": "textInputFocus && vim.active"
+        "when": "textInputFocus"
     },
     /* Cursor Right */
     {
