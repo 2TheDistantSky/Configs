@@ -24,37 +24,12 @@
     "vim.useCtrlKeys": true,
     "vim.useSystemClipboard": true,
     /* Key Bindings */
-    "vim.commandLineModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<C-l>"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "vim.insertModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<C-l>"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
+    "vim.commandLineModeKeyBindingsNonRecursive": [],
+    "vim.insertModeKeyBindingsNonRecursive": [],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "<space>"
-            ],
-            "commands": [
-                "whichkey.show"
-            ]
-        },
-        {
-            "before": [
+                "g",
                 "s"
             ],
             "after": [
@@ -65,6 +40,7 @@
         },
         {
             "before": [
+                "g",
                 "t"
             ],
             "after": [
@@ -75,79 +51,6 @@
                 "d",
                 "j",
                 "k"
-            ]
-        },
-        {
-            "before": [
-                "<C-l>"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        },
-        {
-            "before": [
-                "<C-j>"
-            ],
-            "after": [
-                "j",
-                "j",
-                "j"
-            ]
-        },
-        {
-            "before": [
-                "<C-k>"
-            ],
-            "after": [
-                "k",
-                "k",
-                "k"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "f"
-            ],
-            "commands": [
-                "actions.find"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "h"
-            ],
-            "commands": [
-                "editor.action.startFindReplaceAction"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "i"
-            ],
-            "commands": [
-                "workbench.action.gotoSymbol"
-            ]
-        }
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<space>"
-            ],
-            "commands": [
-                "whichkey.show"
-            ]
-        },
-        {
-            "before": [
-                "<C-l>"
-            ],
-            "after": [
-                "<Esc>"
             ]
         }
     ],
