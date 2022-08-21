@@ -59,7 +59,7 @@
         {
             "before": [
                 "g",
-                "s"
+                "f"
             ],
             "after": [
                 "<leader>",
@@ -70,7 +70,44 @@
         {
             "before": [
                 "g",
-                "t"
+                "s"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "l"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "<leader>",
+                "b",
+                "d",
+                "j",
+                "k"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "g",
+                "f"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "s"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "l"
             ],
             "after": [
                 "<leader>",
