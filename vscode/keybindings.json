@@ -109,29 +109,23 @@
         "command": "workbench.action.quickOpen",
         "when:": "vim.active"
     },
-    /* Close Quick Open */
+    /* Previous Editor */
     {
-        "key": "ctrl+l",
-        "command": "workbench.action.closeQuickOpen",
-        "when": "inQuickOpen && vim.active"
+        "key": "ctrl+k",
+        "command": "workbench.action.previousEditor"
     },
-    /* Close Find Widget */
     {
-        "key": "ctrl+l",
-        "command": "closeFindWidget",
-        "when": "editorFocus && findWidgetVisible && !isComposing && vim.mode == 'Normal' && vim.active"
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.previousEditor"
     },
-    /* Close Peek View */
+    /* Next Editor */
     {
-        "key": "ctrl+l",
-        "command": "closeReferenceSearch",
-        "when": "referenceSearchVisible && !config.editor.stablePeek && vim.active"
+        "key": "ctrl+j",
+        "command": "workbench.action.nextEditor"
     },
-    /* Close Suggest Widget */
     {
-        "key": "ctrl+l",
-        "command": "hideSuggestWidget",
-        "when": "suggestWidgetVisible && textInputFocus && vim.active"
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
     },
     /* Find In Terminal */
     {
@@ -150,18 +144,6 @@
         "key": "ctrl+n",
         "command": "workbench.action.terminal.findNext",
         "when": "terminalFindFocused && vim.mode != 'CommandlineInProgress' && vim.active"
-    },
-    /* Toggle Find Case Sensitive In Terminal */
-    {
-        "key": "ctrl+c",
-        "command": "workbench.action.terminal.toggleFindCaseSensitive",
-        "when": "terminalFindFocused && vim.active"
-    },
-    /* Close Find Widget In Terminal */
-    {
-        "key": "ctrl+l",
-        "command": "workbench.action.terminal.hideFind",
-        "when": "terminalFindFocused && vim.active"
     },
     /* Close Active Editor */
     {

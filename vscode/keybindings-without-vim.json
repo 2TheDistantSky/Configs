@@ -1,0 +1,170 @@
+[
+    /* Cursor Up */
+    {
+        "key": "ctrl+p",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+    /* Cursor Down */
+    {
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+    /* Cursor Left */
+    {
+        "key": "ctrl+b",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    /* Cursor Right */
+    {
+        "key": "ctrl+f",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    /* Cursor Home */
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    /* Cursor End */
+    {
+        "key": "ctrl+e",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    /* Cursor Word Left */
+    {
+        "key": "alt+b",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus"
+    },
+    /* Cursor Word End Right */
+    {
+        "key": "alt+f",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus"
+    },
+    /* Cursor Top */
+    {
+        "key": "shift+alt+oem_comma",
+        "command": "cursorTop",
+        "when": "textInputFocus"
+    },
+    /* Cursor Bottom */
+    {
+        "key": "shift+alt+oem_period",
+        "command": "cursorBottom",
+        "when": "textInputFocus"
+    },
+    /* Select Suggestion */
+    {
+        "key": "ctrl+p",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    /* Navigate In List */
+    {
+        "key": "ctrl+p",
+        "command": "list.focusUp",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "list.focusDown",
+        "when": "listFocus && !inputFocus"
+    },
+    /* Navigate In Quick Open */
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    /* Scroll Page */
+    {
+        "key": "alt+p",
+        "command": "cursorPageUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+n",
+        "command": "cursorPageDown",
+        "when": "textInputFocus"
+    },
+    /* Quick Open */
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.quickOpen",
+        "when:": "vim.active"
+    },
+    /* Find In Terminal */
+    {
+        "key": "ctrl+oem_2",
+        "command": "workbench.action.terminal.focusFind",
+        "when": "terminalFocus"
+    },
+    /* Find Previous In Terminal */
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.terminal.findPrevious",
+        "when": "terminalFindFocused"
+    },
+    /* Find Next In Terminal */
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.findNext",
+        "when": "terminalFindFocused"
+    },
+    /* Find */
+    {
+        "key": "ctrl+, ctrl+f",
+        "command": "actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    /* Find Replace */
+    {
+        "key": "ctrl+, ctrl+h",
+        "command": "editor.action.startFindReplaceAction",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-editor.action.startFindReplaceAction",
+        "when": "editorFocus || editorIsOpen"
+    },
+    /* Previous Editor */
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.previousEditor"
+    },
+    /* Next Editor */
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
+    }
+]
