@@ -151,6 +151,28 @@
         "command": "workbench.action.closeActiveEditor",
         "when": "vim.active"
     },
+    /* Find */
+    {
+        "key": "ctrl+, ctrl+f",
+        "command": "actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    /* Find Replace */
+    {
+        "key": "ctrl+, ctrl+h",
+        "command": "editor.action.startFindReplaceAction",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-editor.action.startFindReplaceAction",
+        "when": "editorFocus || editorIsOpen"
+    },
     /* Toggle Vim */
     {
         "key": "shift+alt+v",
