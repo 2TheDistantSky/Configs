@@ -477,5 +477,10 @@
         "key": "ctrl+oem_comma",
         "command": "-workbench.action.openSettings",
         "when": "vim.active"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor",
+        "when": "vim.active"
     }
 ]
