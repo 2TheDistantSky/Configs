@@ -454,11 +454,6 @@
         "when": "vim.active"
     },
     {
-        "key": "ctrl+f4",
-        "command": "-workbench.action.closeActiveEditor",
-        "when": "vim.active"
-    },
-    {
         "key": "ctrl+oem_comma",
         "command": "-workbench.action.openSettings",
         "when": "vim.active"
