@@ -240,7 +240,7 @@
     },
     {
         "key": "ctrl+e",
-        "command": "-workbench.action.quickOpen && vim.active"
+        "command": "-workbench.action.quickOpen"
     },
     {
         "key": "ctrl+f",
@@ -335,7 +335,6 @@
     {
         "key": "ctrl+n",
         "command": "-workbench.action.files.newUntitledFile",
-        "when": "vim.active"
     },
     {
         "key": "ctrl+o",
@@ -423,7 +422,6 @@
     {
         "key": "ctrl+w",
         "command": "-workbench.action.closeActiveEditor",
-        "when": "vim.active"
     },
     {
         "key": "ctrl+w",
@@ -464,44 +462,5 @@
         "key": "ctrl+oem_comma",
         "command": "-workbench.action.openSettings",
         "when": "vim.active"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "-workbench.action.closeActiveEditor",
-        "when": "vim.active"
-    },
-    {
-        "key": "ctrl+f",
-        "command": "-workbench.action.terminal.focusFind",
-        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-    },
-    {
-        "key": "ctrl+e",
-        "command": "-workbench.action.quickOpen"
-    },
-    {
-        "key": "ctrl+n",
-        "command": "-workbench.action.files.newUntitledFile"
-    },
-    {
-        "key": "ctrl+a",
-        "command": "-editor.action.selectAll",
-        "when": "vim.active"
-
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-workbench.action.toggleSidebarVisibility",
-        "when": "vim.active"
-    },
-    {
-        "key": "ctrl+f",
-        "command": "-actions.find",
-        "when": "editorFocus || editorIsOpen && vim.active"
-    },
-    {
-        "key": "ctrl+h",
-        "command": "-editor.action.startFindReplaceAction",
-        "when": "editorFocus || editorIsOpen && vim.active"
     }
 ]
