@@ -3,15 +3,15 @@
     "vim.camelCaseMotion.enable": true,
     "vim.easymotion": true,
     "vim.replaceWithRegister": true,
-    "vim.sneak": true,
+    // "vim.sneak": true,
     "vim.surround": true,
     /* Plugin Settings */
     "vim.easymotionMarkerBackgroundColor": "#031417",
     "vim.easymotionMarkerForegroundColorOneChar": "#FF0000",
     "vim.easymotionMarkerForegroundColorTwoCharFirst": "#FF0000",
     "vim.easymotionMarkerForegroundColorTwoCharSecond": "#FF0000",
-    "vim.sneakReplacesF": true,
-    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    // "vim.sneakReplacesF": true,
+    // "vim.sneakUseIgnorecaseAndSmartcase": true,
     /* Vim Settings */
     "vim.foldfix": true,
     "vim.highlightedyank.enable": true,
@@ -39,9 +39,9 @@
         "<C-k>": false,
         "<C-l>": false,
         "<C-m>": false,
-        "<C-n>": false,
+        "<C-n>": true,
         "<C-o>": true,
-        "<C-p>": false,
+        "<C-p>": true,
         "<C-q>": false,
         "<C-r>": true,
         "<C-s>": false,
@@ -58,8 +58,7 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "g",
-                "f"
+                "s",
             ],
             "after": [
                 "<leader>",
@@ -104,8 +103,7 @@
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "g",
-                "f"
+                "s",
             ],
             "after": [
                 "<leader>",
