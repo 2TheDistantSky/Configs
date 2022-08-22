@@ -92,17 +92,6 @@
         "command": "workbench.action.quickOpenNavigateNext",
         "when": "inQuickOpen && vim.mode != 'CommandlineInProgress' && vim.active"
     },
-    /* Scroll Page */
-    {
-        "key": "alt+p",
-        "command": "cursorPageUp",
-        "when": "textInputFocus && vim.active"
-    },
-    {
-        "key": "alt+n",
-        "command": "cursorPageDown",
-        "when": "textInputFocus && vim.active"
-    },
     /* Quick Open */
     {
         "key": "ctrl+m",
@@ -157,21 +146,21 @@
         "command": "actions.find",
         "when": "editorFocus || editorIsOpen"
     },
-    {
-        "key": "ctrl+f",
-        "command": "-actions.find",
-        "when": "editorFocus || editorIsOpen && vim.active"
-    },
     /* Find Replace */
     {
         "key": "ctrl+, ctrl+h",
         "command": "editor.action.startFindReplaceAction",
         "when": "editorFocus || editorIsOpen"
     },
+    /* Select All */
     {
-        "key": "ctrl+h",
-        "command": "-editor.action.startFindReplaceAction",
-        "when": "editorFocus || editorIsOpen && vim.active"
+        "key": "ctrl+oem_comma ctrl+a",
+        "command": "editor.action.selectAll"
+    },
+    /* Toggle Sidebar */
+    {
+        "key": "ctrl+oem_comma ctrl+b",
+        "command": "workbench.action.toggleSidebarVisibility"
     },
     /* Toggle Vim */
     {
@@ -495,5 +484,26 @@
     {
         "key": "ctrl+n",
         "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-editor.action.selectAll",
+        "when": "vim.active"
+
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "vim.active"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-actions.find",
+        "when": "editorFocus || editorIsOpen && vim.active"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-editor.action.startFindReplaceAction",
+        "when": "editorFocus || editorIsOpen && vim.active"
     }
 ]
