@@ -355,12 +355,10 @@
     {
         "key": "ctrl+p",
         "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
-        "when": "inFilesPicker && inQuickOpen && vim.active"
     },
     {
         "key": "ctrl+p",
         "command": "-workbench.action.quickOpen",
-        // "when": "vim.active"
     },
     {
         "key": "ctrl+q",
