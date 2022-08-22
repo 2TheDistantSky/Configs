@@ -58,7 +58,7 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "s",
+                "s"
             ],
             "after": [
                 "<leader>",
@@ -103,7 +103,7 @@
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "s",
+                "s"
             ],
             "after": [
                 "<leader>",
