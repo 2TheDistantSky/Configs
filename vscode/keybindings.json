@@ -130,7 +130,6 @@
     {
         "key": "ctrl+q",
         "command": "workbench.action.closeActiveEditor",
-        "when": "vim.active"
     },
     /* Find */
     {
@@ -358,13 +357,12 @@
     },
     {
         "key": "ctrl+q",
-        "command": "-workbench.action.quickOpenView",
-        "when": "vim.active"
+        "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
     },
     {
         "key": "ctrl+q",
-        "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
-        "when": "inQuickOpen && inViewsPicker && vim.active"
+        "command": "-workbench.action.quickOpenView"
     },
     {
         "key": "ctrl+r",
