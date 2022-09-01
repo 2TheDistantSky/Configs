@@ -330,7 +330,7 @@
     },
     {
         "key": "ctrl+n",
-        "command": "-workbench.action.files.newUntitledFile",
+        "command": "-workbench.action.files.newUntitledFile"
     },
     {
         "key": "ctrl+o",
@@ -349,11 +349,11 @@
     },
     {
         "key": "ctrl+p",
-        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker"
     },
     {
         "key": "ctrl+p",
-        "command": "-workbench.action.quickOpen",
+        "command": "-workbench.action.quickOpen"
     },
     {
         "key": "ctrl+q",
@@ -415,7 +415,7 @@
     },
     {
         "key": "ctrl+w",
-        "command": "-workbench.action.closeActiveEditor",
+        "command": "-workbench.action.closeActiveEditor"
     },
     {
         "key": "ctrl+w",
