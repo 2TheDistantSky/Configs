@@ -129,7 +129,7 @@
     /* Close Active Editor */
     {
         "key": "ctrl+q",
-        "command": "workbench.action.closeActiveEditor",
+        "command": "workbench.action.closeActiveEditor"
     },
     /* Find */
     {
@@ -357,8 +357,7 @@
     },
     {
         "key": "ctrl+q",
-        "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
-        "when": "inQuickOpen && inViewsPicker"
+        "command": "-workbench.action.quickOpenNavigateNextInViewPicker"
     },
     {
         "key": "ctrl+q",
