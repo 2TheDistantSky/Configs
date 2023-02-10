@@ -1,0 +1,117 @@
+! csdn.net
+blog.csdn.net###csdn-toolbar
+blog.csdn.net##.blog_container_aside
+blog.csdn.net###recommend-right
+blog.csdn.net##.csdn-side-toolbar
+blog.csdn.net##.meau-list
+blog.csdn.net##.article-info-box
+blog.csdn.net##div.clearfix.type_blog
+blog.csdn.net##.comment-box
+blog.csdn.net##.recommend-end-box
+blog.csdn.net##.template-box
+blog.csdn.net##.type_hot_word
+blog.csdn.net##.blog-expert-recommend-box
+blog.csdn.net##.person-messagebox
+blog.csdn.net##.more-toolbox
+
+! jianshu.com
+www.jianshu.com##._2OwGUo
+www.jianshu.com##._3Pnjry
+www.jianshu.com##._1CSgtu
+www.jianshu.com##._1Jdfvb
+www.jianshu.com##._3MyrRP
+www.jianshu.com###note-page-comment
+www.jianshu.com##section.ouvJEz:nth-of-type(3)
+www.jianshu.com##.d0hShY
+www.jianshu.com##._13lIbp
+www.jianshu.com##._1kCBjS
+www.jianshu.com##.rEsl9f
+
+! zhihu.com
+zhuanlan.zhihu.com##.is-fixed.ColumnPageHeader.Sticky
+zhuanlan.zhihu.com##.like
+zhuanlan.zhihu.com##.Recommendations-Main
+zhuanlan.zhihu.com##div.CornerAnimayedFlex
+www.zhihu.com##.Question-sideColumn--sticky
+www.zhihu.com##.AppHeader.Sticky
+www.zhihu.com##.QuestionHeader > .QuestionHeader-content > .QuestionHeader-side
+www.zhihu.com##.Modal-content
+www.zhihu.com##.Button--plain.Modal-closeButton.Button
+zhuanlan.zhihu.com###Popover8-toggle > button
+
+! bilibili.com
+live.bilibili.com##.follow-cntr
+live.bilibili.com##.side-bar-cntr
+live.bilibili.com##.haruna-canvas
+live.bilibili.com##.p-relative.b-box.f-clear.gift-control-panel
+live.bilibili.com##.z-section-blocks.f-clear.section-block > .left-container
+live.bilibili.com##.z-section-blocks.f-clear.section-block
+live.bilibili.com##.link-footer
+live.bilibili.com##.model-33.a-scale-in-ease.pointer.avatar-btn
+live.bilibili.com##.task-info.bg-no-repeat.rank-banner
+live.bilibili.com###gift-control-vm
+t.bilibili.com##.right-panel
+t.bilibili.com##li.nav-link-item > .link
+www.bilibili.com##.contact-help
+
+! ani.gamer.com.tw
+ani.gamer.com.tw##div:nth-of-type(4)
+
+! douyu.com
+www.douyu.com###bc1 > .wm-view
+www.douyu.com###bc2 > .wm-view
+www.douyu.com###bc3 > .wm-view
+www.douyu.com###bc4 > .wm-view
+www.douyu.com###bc5 > .wm-view
+www.douyu.com###bc6> .wm-view
+www.douyu.com###bc7 > .wm-view
+www.douyu.com###bc8 > .wm-view
+www.douyu.com###bc9 > .wm-view
+www.douyu.com##.PlayerToolbar
+www.douyu.com###videoBottomYubaTabs
+www.douyu.com##.layout-Bottom-main
+www.douyu.com##.bc-wrapper-9.bc-wrapper
+www.douyu.com##.about
+www.douyu.com##a.Aside-shrink-item:nth-of-type(2)
+www.douyu.com##a.Aside-shrink-item:nth-of-type(3)
+www.douyu.com##a.Aside-shrink-item:nth-of-type(4)
+www.douyu.com##a.Aside-shrink-item:nth-of-type(5)
+www.douyu.com##a.Aside-shrink-item:nth-of-type(6)
+www.douyu.com##.AnchorLike-ItemBox
+www.douyu.com##.Bottom
+www.douyu.com##.is-show.ActBase.ACT5202021
+www.douyu.com##.ActBase
+www.douyu.com##.TreasureStatus
+www.douyu.com##div.Title-row:nth-of-type(3)
+www.douyu.com##.Download > .public-DropMenu > .public-DropMenu-link
+www.douyu.com##.Broadcast > .public-DropMenu > .public-DropMenu-link
+www.douyu.com##.Game.public-DropMenu
+www.douyu.com##li.Header-menu-link:nth-of-type(6)
+www.douyu.com##.Video.public-DropMenu
+
+
+! https://www.imooc.com
+www.imooc.com###globalTopBanner
+
+! https://fanyi.youdao.com
+fanyi.youdao.com##.top.top-nav
+fanyi.youdao.com##.footer
+fanyi.youdao.com##.feed
+fanyi.youdao.com##.tab-header
+fanyi.youdao.com##.inside__products
+fanyi.youdao.com##.side__nav
+fanyi.youdao.com##.fanyi__footer
+
+! https://www.huya.com
+www.huya.com##.match_diy_16425.match_body_wrap
+www.huya.com##.J_gamePromoteContainer
+www.huya.com###player-download-guide-tip
+www.huya.com##.J_un_race.diy-toutu
+www.huya.com##.J_tab_handler
+www.huya.com##.J_comp_4.diy-comp
+www.huya.com##.diy-comps-wrap
+www.huya.com##.player-gift-wrap
+www.huya.com##.hy-nav-item-youliao.hy-nav-item
+www.huya.com##.hy-nav-item-game.hy-nav-item
+www.huya.com##.hy-nav-item-cloudGame.hy-nav-item
+www.huya.com##.Nav--2HPhApT-QQWPnPIHoPgi7f
