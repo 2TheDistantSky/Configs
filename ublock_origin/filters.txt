@@ -88,6 +88,15 @@ www.douyu.com##.Broadcast > .public-DropMenu > .public-DropMenu-link
 www.douyu.com##.Game.public-DropMenu
 www.douyu.com##li.Header-menu-link:nth-of-type(6)
 www.douyu.com##.Video.public-DropMenu
+www.douyu.com##.FirePower
+www.douyu.com##.AnchorPocketTips
+www.douyu.com##.pointTip-860890
+www.douyu.com##.SingleRecommandEntry
+www.douyu.com##.layout-Player-aside
+www.douyu.com##.HeaderGif-left
+www.douyu.com##.HeaderGif-right
+www.douyu.com##.CreateCenter
+www.douyu.com##.Prompt-container
 
 
 ! https://www.imooc.com
@@ -119,4 +128,3 @@ www.huya.com##.room-footer
 www.huya.com##.j_room-backToTop.room-backToTop
 www.huya.com##.wrap-ext.chat-wrap-panel
 www.huya.com###player-ext-wrap
-
