@@ -97,7 +97,8 @@ www.douyu.com##.HeaderGif-left
 www.douyu.com##.HeaderGif-right
 www.douyu.com##.CreateCenter
 www.douyu.com##.Prompt-container
-
+www.douyu.com##div.wm-general:nth-of-type(2)
+www.douyu.com##.video-above
 
 ! https://www.imooc.com
 www.imooc.com###globalTopBanner
