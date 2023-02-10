@@ -115,3 +115,8 @@ www.huya.com##.hy-nav-item-youliao.hy-nav-item
 www.huya.com##.hy-nav-item-game.hy-nav-item
 www.huya.com##.hy-nav-item-cloudGame.hy-nav-item
 www.huya.com##.Nav--2HPhApT-QQWPnPIHoPgi7f
+www.huya.com##.room-footer
+www.huya.com##.j_room-backToTop.room-backToTop
+www.huya.com##.wrap-ext.chat-wrap-panel
+www.huya.com###player-ext-wrap
+
