@@ -1,7 +1,5 @@
 // ==UserScript==
-// 原作者：https://greasyfork.org/en/users/552186-mistwave
-// 添加 https://zhuanlan.zhihu.com/*
-// @name         去除知乎登陆弹窗 remove stupid login window on zhihu.com
+// @name         remove stupid login window on zhihu.com
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  fuck zhihu.com
@@ -10,6 +8,9 @@
 // @match        https://zhuanlan.zhihu.com/*
 // @grant        none
 // ==/UserScript==
+
+// 原作者：https://greasyfork.org/en/users/552186-mistwave
+// 在原版基础上添加 https://zhuanlan.zhihu.com/*
 
 (function () {
     'use strict';
