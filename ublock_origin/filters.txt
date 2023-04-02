@@ -27,18 +27,6 @@ www.jianshu.com##._13lIbp
 www.jianshu.com##._1kCBjS
 www.jianshu.com##.rEsl9f
 
-! zhihu.com
-zhuanlan.zhihu.com##.is-fixed.ColumnPageHeader.Sticky
-zhuanlan.zhihu.com##.like
-zhuanlan.zhihu.com##.Recommendations-Main
-zhuanlan.zhihu.com##div.CornerAnimayedFlex
-www.zhihu.com##.Question-sideColumn--sticky
-www.zhihu.com##.AppHeader.Sticky
-www.zhihu.com##.QuestionHeader > .QuestionHeader-content > .QuestionHeader-side
-www.zhihu.com##.Modal-content
-www.zhihu.com##.Button--plain.Modal-closeButton.Button
-zhuanlan.zhihu.com###Popover8-toggle > button
-
 ! bilibili.com
 live.bilibili.com##.follow-cntr
 live.bilibili.com##.side-bar-cntr
@@ -53,6 +41,9 @@ live.bilibili.com###gift-control-vm
 t.bilibili.com##.right-panel
 t.bilibili.com##li.nav-link-item > .link
 www.bilibili.com##.contact-help
+www.bilibili.com##.left-container-under-player > .ad-floor-exp.ad-report
+t.bilibili.com##.download-client-trigger.download-entry
+www.bilibili.com##.adblock-tips
 
 ! ani.gamer.com.tw
 ani.gamer.com.tw##div:nth-of-type(4)
@@ -100,10 +91,10 @@ www.douyu.com##.Prompt-container
 www.douyu.com##div.wm-general:nth-of-type(2)
 www.douyu.com##.video-above
 
-! https://www.imooc.com
+! imooc.com
 www.imooc.com###globalTopBanner
 
-! https://fanyi.youdao.com
+! fanyi.youdao.com
 fanyi.youdao.com##.top.top-nav
 fanyi.youdao.com##.footer
 fanyi.youdao.com##.feed
@@ -112,7 +103,7 @@ fanyi.youdao.com##.inside__products
 fanyi.youdao.com##.side__nav
 fanyi.youdao.com##.fanyi__footer
 
-! https://www.huya.com
+! huya.com
 www.huya.com##.match_diy_16425.match_body_wrap
 www.huya.com##.J_gamePromoteContainer
 www.huya.com###player-download-guide-tip
@@ -129,3 +120,17 @@ www.huya.com##.room-footer
 www.huya.com##.j_room-backToTop.room-backToTop
 www.huya.com##.wrap-ext.chat-wrap-panel
 www.huya.com###player-ext-wrap
+
+! fanyi.youdao.com
+fanyi.youdao.com##.ad
+fanyi.youdao.com##.mask.pop-up-comp
+fanyi.youdao.com##.inner-box
+
+! juejin.cn
+juejin.cn##.recommend-box
+
+! zhihu.com
+www.zhihu.com##.css-16oqwfi
+www.zhihu.com##.Footer
+www.zhihu.com##.css-1qyytj7.Question-sideColumn--sticky.Question-sideColumn
+www.zhihu.com##.css-vo5rwd
