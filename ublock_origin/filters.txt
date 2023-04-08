@@ -92,6 +92,7 @@ www.douyu.com##.video-above
 www.douyu.com###bc2
 www.douyu.com###bc2-bgblur
 www.douyu.com##div.wm-general:nth-of-type(1)
+www.douyu.com##.is-showBox.PELact
 
 ! imooc.com
 www.imooc.com###globalTopBanner
