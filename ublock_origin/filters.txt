@@ -88,7 +88,6 @@ www.douyu.com##.HeaderGif-left
 www.douyu.com##.HeaderGif-right
 www.douyu.com##.CreateCenter
 www.douyu.com##.Prompt-container
-www.douyu.com##div.wm-general:nth-of-type(2)
 www.douyu.com##.video-above
 
 ! imooc.com
@@ -134,3 +133,18 @@ www.zhihu.com##.css-16oqwfi
 www.zhihu.com##.Footer
 www.zhihu.com##.css-1qyytj7.Question-sideColumn--sticky.Question-sideColumn
 www.zhihu.com##.css-vo5rwd
+zhuanlan.zhihu.com##.css-1izy64v
+
+! 2023-04-03 https://zh.moegirl.org.cn
+zh.moegirl.org.cn##.n-modal-mask
+zh.moegirl.org.cn##.n-scrollbar-content > .moe-wikitext-output
+zh.moegirl.org.cn##.n-modal.n-card
+zh.moegirl.org.cn##.n-modal-scroll-content.n-scrollbar-content
+
+! 2023-04-04 https://blog.csdn.net
+blog.csdn.net##.passport-login-mark
+||passport.csdn.net/account/login$subdocument
+blog.csdn.net##.common-nps-box.recommend-nps-box
+blog.csdn.net###copyright-box
+blog.csdn.net##.recommend-box-style.insert-baidu-box.recommend-box
+blog.csdn.net##.recommend-box
