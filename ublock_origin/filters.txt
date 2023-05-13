@@ -44,6 +44,7 @@ www.bilibili.com##.contact-help
 www.bilibili.com##.left-container-under-player > .ad-floor-exp.ad-report
 t.bilibili.com##.download-client-trigger.download-entry
 www.bilibili.com##.adblock-tips
+www.bilibili.com##.download-client-trigger.download-entry
 
 ! ani.gamer.com.tw
 ani.gamer.com.tw##div:nth-of-type(4)
@@ -128,6 +129,8 @@ www.huya.com###player-ext-wrap
 fanyi.youdao.com##.ad
 fanyi.youdao.com##.mask.pop-up-comp
 fanyi.youdao.com##.inner-box
+fanyi.youdao.com##.mask.pop-up-comp
+fanyi.youdao.com##.arxiv-pop-up
 
 ! juejin.cn
 juejin.cn##.recommend-box
