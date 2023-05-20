@@ -45,6 +45,14 @@ www.bilibili.com##.left-container-under-player > .ad-floor-exp.ad-report
 t.bilibili.com##.download-client-trigger.download-entry
 www.bilibili.com##.adblock-tips
 www.bilibili.com##.download-client-trigger.download-entry
+t.bilibili.com##.van-popover__reference.download-client-trigger.link
+t.bilibili.com##[href="//member.bilibili.com/platform/home"]
+t.bilibili.com##.van-popover__reference.mini-upload
+t.bilibili.com##.topic-panel
+t.bilibili.com##.bili-dyn-banner
+www.bilibili.com##.vip-wrap
+www.bilibili.com##li.right-entry-item:nth-of-type(6)
+www.bilibili.com##.trial-feed-wrap
 
 ! ani.gamer.com.tw
 ani.gamer.com.tw##div:nth-of-type(4)
