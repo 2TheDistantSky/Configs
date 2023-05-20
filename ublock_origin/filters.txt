@@ -142,12 +142,6 @@ www.zhihu.com##.css-1qyytj7.Question-sideColumn--sticky.Question-sideColumn
 www.zhihu.com##.css-vo5rwd
 zhuanlan.zhihu.com##.css-1izy64v
 
-! 2023-04-03 https://zh.moegirl.org.cn
-zh.moegirl.org.cn##.n-modal-mask
-zh.moegirl.org.cn##.n-scrollbar-content > .moe-wikitext-output
-zh.moegirl.org.cn##.n-modal.n-card
-zh.moegirl.org.cn##.n-modal-scroll-content.n-scrollbar-content
-
 ! 2023-04-04 https://blog.csdn.net
 blog.csdn.net##.passport-login-mark
 ||passport.csdn.net/account/login$subdocument
@@ -155,3 +149,13 @@ blog.csdn.net##.common-nps-box.recommend-nps-box
 blog.csdn.net###copyright-box
 blog.csdn.net##.recommend-box-style.insert-baidu-box.recommend-box
 blog.csdn.net##.recommend-box
+
+! 2023-05-19 https://pan.baidu.com
+pan.baidu.com##.nd-operate-guidance
+pan.baidu.com##.nd-dialog-workspace--bg.nd-dialog-common-header.u-dialog__wrapper
+pan.baidu.com##.wp-s-aside-nav__main-item.wp-s-aside-nav-bubble
+pan.baidu.com##.v-modal
+pan.baidu.com##.wp-s-aside-nav__main
+pan.baidu.com##.wp-s-header__right-item.web-header-ad-item
+pan.baidu.com##.u-svip-button--mini.u-svip-button--main.is-round.u-button--mini.u-button--default.wp-s-header__vip-btn-wrapper.u-svip-button.u-button
+pan.baidu.com##span.wp-s-header__right-item
