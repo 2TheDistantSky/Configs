@@ -13,6 +13,12 @@ blog.csdn.net##.type_hot_word
 blog.csdn.net##.blog-expert-recommend-box
 blog.csdn.net##.person-messagebox
 blog.csdn.net##.more-toolbox
+blog.csdn.net##.passport-login-mark
+||passport.csdn.net/account/login$subdocument
+blog.csdn.net##.common-nps-box.recommend-nps-box
+blog.csdn.net###copyright-box
+blog.csdn.net##.recommend-box-style.insert-baidu-box.recommend-box
+blog.csdn.net##.recommend-box
 
 ! jianshu.com
 www.jianshu.com##._2OwGUo
@@ -53,6 +59,7 @@ t.bilibili.com##.bili-dyn-banner
 www.bilibili.com##.vip-wrap
 www.bilibili.com##li.right-entry-item:nth-of-type(6)
 www.bilibili.com##.trial-feed-wrap
+t.bilibili.com##.right-entry--vip.right-entry__outside
 
 ! ani.gamer.com.tw
 ani.gamer.com.tw##div:nth-of-type(4)
@@ -150,15 +157,7 @@ www.zhihu.com##.css-1qyytj7.Question-sideColumn--sticky.Question-sideColumn
 www.zhihu.com##.css-vo5rwd
 zhuanlan.zhihu.com##.css-1izy64v
 
-! 2023-04-04 https://blog.csdn.net
-blog.csdn.net##.passport-login-mark
-||passport.csdn.net/account/login$subdocument
-blog.csdn.net##.common-nps-box.recommend-nps-box
-blog.csdn.net###copyright-box
-blog.csdn.net##.recommend-box-style.insert-baidu-box.recommend-box
-blog.csdn.net##.recommend-box
-
-! 2023-05-19 https://pan.baidu.com
+! https://pan.baidu.com
 pan.baidu.com##.nd-operate-guidance
 pan.baidu.com##.nd-dialog-workspace--bg.nd-dialog-common-header.u-dialog__wrapper
 pan.baidu.com##.wp-s-aside-nav__main-item.wp-s-aside-nav-bubble
