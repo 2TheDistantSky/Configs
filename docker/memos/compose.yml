@@ -1,0 +1,14 @@
+# docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos neosmemo/memos:stable
+version: '3'
+services:
+  memos:
+    image: "neosmemo/memos:0.19"
+    container_name: "memos"
+    ports:
+      - "5230:5230"
+    volumes:
+      - memos:/var/opt/memos
+    restart: always
+
+volumes:
+  memos:
