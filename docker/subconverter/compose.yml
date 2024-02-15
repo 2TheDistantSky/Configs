@@ -1,7 +1,7 @@
 version: '3'
 services:
   subconverter:
-    image: tindy2013/subconverter:0.7.2
+    image: tindy2013/subconverter:0.8.1
     container_name: subconverter
     ports:
       - "25500:25500"
